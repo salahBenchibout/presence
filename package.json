@@ -1,0 +1,24 @@
+{
+  "name": "presence",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node server.js --seed",
+    "import": "node server.js --import teachers.json",
+    "import:modules": "node server.js --import-modules modules_catalog.json"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

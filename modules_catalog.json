@@ -1,0 +1,7982 @@
+[
+{
+"code": "10212304",
+"name": "",
+"name_ar": "اقتصاديات وسائل الإعلام",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20231201",
+"name": "",
+"name_ar": "2 البرمجة و الذكأ الإصطناعي",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212401",
+"name": "",
+"name_ar": "2 مدخل الى وسائل الاعلام و الاتصال",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2406",
+"name": "",
+"name_ar": "أساسيات بحوث العمليات",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223504",
+"name": "",
+"name_ar": "إخراج صحيفة مكتوبة وإلكترونية",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20231205",
+"name": "",
+"name_ar": "احصاء معمق",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221107",
+"name": "",
+"name_ar": "الاتصال والقيادة",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20312402",
+"name": "",
+"name_ar": "التربص في المؤسسة",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341202",
+"name": "",
+"name_ar": "التسويق الإلكتروني للخدمات",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123603",
+"name": "",
+"name_ar": "الحريات العامة",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20122309",
+"name": "",
+"name_ar": "الشركات الناشئة الرشيقة (Lean Startup)",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20132309",
+"name": "",
+"name_ar": "الشركات الناشئة الرشيقة (Lean Startup)",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20152309",
+"name": "",
+"name_ar": "الشركات الناشئة الرشيقة (Lean Startup)",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223503",
+"name": "",
+"name_ar": "الصحافة المتخصصة المكتوبة و الإلكترونية",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20312401",
+"name": "",
+"name_ar": "العمل الشخصي (مذكرة)",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10113603",
+"name": "",
+"name_ar": "القانون الدولي الخاص 2",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113606",
+"name": "",
+"name_ar": "القانون البحري",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113503",
+"name": "",
+"name_ar": "القانون الدولي الخاص1",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20231202",
+"name": "",
+"name_ar": "المشروع المدرسي",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221208",
+"name": "",
+"name_ar": "المقاوالتية في المؤسسات الاتصالية",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341203",
+"name": "",
+"name_ar": "انظمة الدفع الإلكترونية",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2403",
+"name": "",
+"name_ar": "تسيير المؤسسة",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223601",
+"name": "",
+"name_ar": "تقنيات الاتصال",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223607",
+"name": "",
+"name_ar": "تقنيات التنشيط الإعلامي",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20341207",
+"name": "",
+"name_ar": "صناعة و تسويق المحتوى الرقمي",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231206",
+"name": "",
+"name_ar": "علم النفس الإجتماعي المدرسي",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102406",
+"name": "",
+"name_ar": "قانون العمل",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113605",
+"name": "",
+"name_ar": "قانون التأمين",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20141206",
+"name": "",
+"name_ar": "قانون الوقاية من الفساد ومكافحته",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223609",
+"name": "",
+"name_ar": "لغة أجنبية",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20131208",
+"name": "",
+"name_ar": "لغة أجنبية (انجليزية) 2",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10201106",
+"name": "",
+"name_ar": "مدخل إلى البرامج الحرة و المصادرة المفتوحة",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212408",
+"name": "",
+"name_ar": "مدخل للعلوم القانونية",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233607",
+"name": "",
+"name_ar": "مشكلات اجتماعية",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20152401",
+"name": "",
+"name_ar": "ملتقى",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20142401",
+"name": "",
+"name_ar": "ملتقى ممارسة الحق النقابي",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223505",
+"name": "",
+"name_ar": "ملتقى منهجية 1",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20112304",
+"name": "",
+"name_ar": "منهجية إعداد مشروع مهني والمذكرة",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211106",
+"name": "",
+"name_ar": "منهجية البحث في الصحافةالإلكترونية",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223602",
+"name": "",
+"name_ar": "نظريات الإعلام و الاتصال 2",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233501",
+"name": "",
+"name_ar": "نظريات التنظيم",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20142308",
+"name": "",
+"name_ar": "(Investment law) قانون الإستثمار",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102305",
+"name": "",
+"name_ar": "(Public international law) قانون دولي عام",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20232306",
+"name": "",
+"name_ar": "(SPSS الحزمة الإحصائية) جمع وتحليل البيانات",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20122306",
+"name": "",
+"name_ar": "(The Court of Accounts )مجلس المحاسبة",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20132308",
+"name": "",
+"name_ar": "(لغة أجنبية (انجليزية",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20152308",
+"name": "",
+"name_ar": "(لغة أجنبية 3 (انجليزية",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131108",
+"name": "",
+"name_ar": "1 لغة أجنبية إنجليزية",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10403603",
+"name": "",
+"name_ar": "Advanced Grammar",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20612301",
+"name": "",
+"name_ar": "Anglais Scientifique",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20412301",
+"name": "",
+"name_ar": "Artificial Intelligence",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20402305",
+"name": "",
+"name_ar": "Artificial Intelligence in Language Education",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E1203",
+"name": "",
+"name_ar": "Business Economics",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20612302",
+"name": "",
+"name_ar": "Cloud et Virtualisation -Administration et Sécurisation",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E12010",
+"name": "",
+"name_ar": "Commercial law",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403604",
+"name": "",
+"name_ar": "Communication and Professional Terms(CPW)",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403504",
+"name": "",
+"name_ar": "Communication and professional terms(CPW)",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401102",
+"name": "",
+"name_ar": "Comprehension and Oral Expression 1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402302",
+"name": "",
+"name_ar": "Comprehension and Oral Expression 3",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402301",
+"name": "",
+"name_ar": "Comprehension and Written Expression 3",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401101",
+"name": "",
+"name_ar": "Comprehension and written expression 1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401202",
+"name": "",
+"name_ar": "Compréhension et expression orale 2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402402",
+"name": "",
+"name_ar": "Compréhension et expression orale 4",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401201",
+"name": "",
+"name_ar": "Compréhension et expression écrite 2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402401",
+"name": "",
+"name_ar": "Compréhension et expression écrite 4",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20612303",
+"name": "",
+"name_ar": "Conception et Déploiement des Infrastructures Réseaux",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20412302",
+"name": "",
+"name_ar": "Conflict Management",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10401104",
+"name": "",
+"name_ar": "Corrective and Articulatory Phonetics 1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20132306",
+"name": "",
+"name_ar": "Criminal Policy",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20142306",
+"name": "",
+"name_ar": "Criminal law of employment (القانون الجنائي للعمل)",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20402304",
+"name": "",
+"name_ar": "Cross-Cultural Studies/ Communication",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10402307",
+"name": "",
+"name_ar": "Culture(s) Civilization(S) of Language 3",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401207",
+"name": "",
+"name_ar": "Culture(s)/Civilisation(s)de la langue2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402407",
+"name": "",
+"name_ar": "Culture(s)/Civilisation(s)de la langue4",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401107",
+"name": "",
+"name_ar": "Culture(s)/Civilization(S) of Language 1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20152306",
+"name": "",
+"name_ar": "Cyber security الأمن السيبراني والفساد",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20402307",
+"name": "",
+"name_ar": "Dissertation Writing",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20412304",
+"name": "",
+"name_ar": "Dissertation Writing 3",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20612309",
+"name": "",
+"name_ar": "Droit Numérique",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20612308",
+"name": "",
+"name_ar": "Développement et sécurisation des applications mobiles",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20412303",
+"name": "",
+"name_ar": "E-business",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10403511",
+"name": "",
+"name_ar": "ETHICS",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403611",
+"name": "",
+"name_ar": "ETHICS",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1209",
+"name": "",
+"name_ar": "Economic Terms in English",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1108",
+"name": "",
+"name_ar": "English for Economics",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403606",
+"name": "",
+"name_ar": "English for Professional Goals",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403605",
+"name": "",
+"name_ar": "English for Specific Purposes(ESP)",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20402302",
+"name": "",
+"name_ar": "English for Specific Purposes1",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20412308",
+"name": "",
+"name_ar": "English for global business",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10403509",
+"name": "",
+"name_ar": "English for presentation",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403609",
+"name": "",
+"name_ar": "English for presentation",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403506",
+"name": "",
+"name_ar": "English for professional purposes",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403505",
+"name": "",
+"name_ar": "English for specific purposes",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "me",
+"name": "",
+"name_ar": "Entrepreneurship",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20412309",
+"name": "",
+"name_ar": "Entrepreneurship",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E1201",
+"name": "",
+"name_ar": "Financial Accounting 2",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1101",
+"name": "",
+"name_ar": "Financial accounting",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402310",
+"name": "",
+"name_ar": "Foreign Language 3",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20131206",
+"name": "",
+"name_ar": "Forensic Medicine",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151206",
+"name": "",
+"name_ar": "Gouvernance et éthique des affaires",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10401203",
+"name": "",
+"name_ar": "Grammaire de la langue d’étude 2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402403",
+"name": "",
+"name_ar": "Grammaire de la langue d’étude 4",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401103",
+"name": "",
+"name_ar": "Grammar of the Language of Study 1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402303",
+"name": "",
+"name_ar": "Grammar of the Language of Study 3",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1204",
+"name": "",
+"name_ar": "History of economic thought",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401205",
+"name": "",
+"name_ar": "Initiation à la linguistique2(concepts)",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20412307",
+"name": "",
+"name_ar": "Innovation Management",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20402306",
+"name": "",
+"name_ar": "Instructional Planning and Design 1",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10402304",
+"name": "",
+"name_ar": "Introduction to Linguistics 1",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401106",
+"name": "",
+"name_ar": "Introduction to Literary Texts",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402309",
+"name": "",
+"name_ar": "Introduction to Translation 1",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1103",
+"name": "",
+"name_ar": "Introduction to economics",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1107",
+"name": "",
+"name_ar": "Introduction to law",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401105",
+"name": "",
+"name_ar": "Introduction to the Linguistics 1 (concepts)",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1106",
+"name": "",
+"name_ar": "Introduction to the sociology of organizations",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20402307",
+"name": "",
+"name_ar": "Language Assessment and Evaluation",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10403607",
+"name": "",
+"name_ar": "Library Research",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403507",
+"name": "",
+"name_ar": "Library research1",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402306",
+"name": "",
+"name_ar": "Literature of the Language of Study 2",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20612307",
+"name": "",
+"name_ar": "Marketing Digital et Sécurité",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E1206",
+"name": "",
+"name_ar": "Mathematics 2",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1102",
+"name": "",
+"name_ar": "Microeconomics 1",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1202",
+"name": "",
+"name_ar": "Microeconomics 2",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20612306",
+"name": "",
+"name_ar": "Méthodes d’Evaluation des Performances des systèmes",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10401204",
+"name": "",
+"name_ar": "Phonétique corrective et articulatoire2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "2041236",
+"name": "",
+"name_ar": "Production and Operations Management",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E1207",
+"name": "",
+"name_ar": "Python Fundamentals 2",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20412305",
+"name": "",
+"name_ar": "Quantitative Data Analysis 3",
+"class": "Deuxième année (Management in english Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20402301",
+"name": "",
+"name_ar": "Research Methodology 3",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10401209",
+"name": "",
+"name_ar": "Science sociales et humaines 2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401109",
+"name": "",
+"name_ar": "Social and Human Sciences 1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403510",
+"name": "",
+"name_ar": "Specialized translation",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403610",
+"name": "",
+"name_ar": "Specialized translation",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1205",
+"name": "",
+"name_ar": "Statistics 2",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20612305",
+"name": "",
+"name_ar": "Sécurité et Cyberattaque",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20402303",
+"name": "",
+"name_ar": "Teaching Culture in the EFL Classroom",
+"class": "Deuxième année (Didactics & Foreign language Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10402405",
+"name": "",
+"name_ar": "Technique de l’information et de la communication 1",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403602",
+"name": "",
+"name_ar": "Technique of Oral Language 2",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403502",
+"name": "",
+"name_ar": "Technique of Oral language 1",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403601",
+"name": "",
+"name_ar": "Technique of Written Language 2",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403501",
+"name": "",
+"name_ar": "Technique of Written language 1",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401208",
+"name": "",
+"name_ar": "Techniques du travail universitaire 2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402408",
+"name": "",
+"name_ar": "Techniques du travail universitaire 4",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401110",
+"name": "",
+"name_ar": "The History of Algeria",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401108",
+"name": "",
+"name_ar": "University Work Techniques 1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402308",
+"name": "",
+"name_ar": "University Work Techniques 3",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20612304",
+"name": "",
+"name_ar": "Veille technologie et de la sécurité",
+"class": "Deuxième année (réseaux et sécurité informatique Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10403508",
+"name": "",
+"name_ar": "Writing reports",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10403608",
+"name": "",
+"name_ar": "Writing reports",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402409",
+"name": "",
+"name_ar": "initiation a la traduction 2",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402404",
+"name": "",
+"name_ar": "introduction à la linguistique 4",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401210",
+"name": "",
+"name_ar": "langue étrangère 2",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402410",
+"name": "",
+"name_ar": "langue étrangère 4",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10401206",
+"name": "",
+"name_ar": "littérature de langue d'étude1",
+"class": "Première année (Littérature et langues étrangères Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10402406",
+"name": "",
+"name_ar": "littérature de langue d'étude3",
+"class": "Deuxième année (Littérature et langues étrangères Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1105",
+"name": "",
+"name_ar": "mathematics 1",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123503",
+"name": "",
+"name_ar": "special criminal law قانون الجنائي الخاص",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113505",
+"name": "",
+"name_ar": "special criminal law القانون الجنائي الخاص",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1104",
+"name": "",
+"name_ar": "statistics 1",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20152301",
+"name": "",
+"name_ar": "آليات وإجراءات مكافحة للفساد",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221105",
+"name": "",
+"name_ar": "أبحاث حول المستخدمين في البيئة الرقمية",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2407",
+"name": "",
+"name_ar": "أخلاقيات الأعمال",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312401",
+"name": "",
+"name_ar": "أخلاقيات الأعمال",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20221108",
+"name": "",
+"name_ar": "أخلاقيات الاتصال الرقمي",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151202",
+"name": "",
+"name_ar": "أخلقة الوظيفة العمومية",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2307",
+"name": "",
+"name_ar": "أساسيات الإدارة الحديثة",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312303",
+"name": "",
+"name_ar": "أساسيات الإدارة الحديثة01",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20351104",
+"name": "",
+"name_ar": "أساسيات الإدارة الرقمية",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A1109",
+"name": "",
+"name_ar": "أساسيات البرمجة بالبايتون 1",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1207",
+"name": "",
+"name_ar": "أساسيات البرمجة بالبايتون2",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312405",
+"name": "",
+"name_ar": "أساسيات بحوث العمليات",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201202",
+"name": "",
+"name_ar": "أساسيات علوم المكتبات والتوثيق",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1104",
+"name": "",
+"name_ar": "إحصاء 1",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1205",
+"name": "",
+"name_ar": "إحصاء 2",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312305",
+"name": "",
+"name_ar": "إحصاء 3",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312404",
+"name": "",
+"name_ar": "إحصاء 4",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10242310",
+"name": "",
+"name_ar": "إحصاء وصفي واستدلالـي",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2305",
+"name": "",
+"name_ar": "إحصاء3",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2405",
+"name": "",
+"name_ar": "إحصاء4",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223604",
+"name": "",
+"name_ar": "إخراج إذاعي و تلفزيوني",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20352302",
+"name": "",
+"name_ar": "إدارة الإبداع و الإبتكار",
+"class": "Deuxième année (Administration Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331104",
+"name": "",
+"name_ar": "إدارة الاجتماعات",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341101",
+"name": "",
+"name_ar": "إدارة التسويق الرقمي",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332308",
+"name": "",
+"name_ar": "إدارة الجودة",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351204",
+"name": "",
+"name_ar": "إدارة الجودة",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341104",
+"name": "",
+"name_ar": "إدارة الحملات الرقمية بالذكاء الاصطناعي",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20352301",
+"name": "",
+"name_ar": "إدارة الشبكات الاجتماعية والمنصات الرقمية",
+"class": "Deuxième année (Administration Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212307",
+"name": "",
+"name_ar": "إدارة المؤسسات الاعلامية",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10313504",
+"name": "",
+"name_ar": "إدارة المشاريع",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20351203",
+"name": "",
+"name_ar": "إدارة المشاريع الالكترونية",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20342301",
+"name": "",
+"name_ar": "إدارة المشاريع الرقمية",
+"class": "Deuxième année (Marketing Numérique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20222306",
+"name": "",
+"name_ar": "إدارة المشاريع في العلاقات العامة",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351103",
+"name": "",
+"name_ar": "إدارة المعرفة",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10313505",
+"name": "",
+"name_ar": "إدارة الموارد البشرية",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20321201",
+"name": "",
+"name_ar": "إدارة الموارد البشرية في القطاع العمومي",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331203",
+"name": "",
+"name_ar": "إدارة الموازنة العامة",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10313508",
+"name": "",
+"name_ar": "إدارة تكنولوجيا المعلومات",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20122301",
+"name": "",
+"name_ar": "إدارة عامة",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351201",
+"name": "",
+"name_ar": "إدارة علاقات العملاء الالكترونية",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341201",
+"name": "",
+"name_ar": "إدارة علاقات العملاء الالكترونية E-CRM",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10313506",
+"name": "",
+"name_ar": "إدارة مالية",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20321103",
+"name": "",
+"name_ar": "إدارة ميزانية الجماعات المحلية",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322301",
+"name": "",
+"name_ar": "إدارة وتفويض المرافق العمومية",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10233504",
+"name": "",
+"name_ar": "إستراتيجيات الاتصال",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223610",
+"name": "",
+"name_ar": "إعداد جريدة إخبارية",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10242304",
+"name": "",
+"name_ar": "إعلام آلـي وثائقــي: قواعد البيانات",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1203",
+"name": "",
+"name_ar": "إقتصاد المؤسسة",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101206",
+"name": "",
+"name_ar": "إقتصاد سياسي",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233606",
+"name": "",
+"name_ar": "إنجاز عمل علمي متخصص",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223606",
+"name": "",
+"name_ar": "إنجاز عمل علمي متخصص",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20141108",
+"name": "",
+"name_ar": "إنجليزية (مصطلحات)",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2409",
+"name": "",
+"name_ar": "إنجليزية 3",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20331209",
+"name": "",
+"name_ar": "إنجليزية أعمال 2",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331108",
+"name": "",
+"name_ar": "إنجليزية الأعمال1",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10201109",
+"name": "",
+"name_ar": "إيستمولوجيا العلوم الإنسانية",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111105",
+"name": "",
+"name_ar": "االبرمجة",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221101",
+"name": "",
+"name_ar": "ابستيمولوجيا علوم الإعلام و الاتصال1",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20222303",
+"name": "",
+"name_ar": "اتصال الازمات",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221102",
+"name": "",
+"name_ar": "ادارة الاتصال في العلاقات العامة",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332302",
+"name": "",
+"name_ar": "ادارة الموارد البشرية",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341103",
+"name": "",
+"name_ar": "استراتيجيات التسويق الرقمي",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20152303",
+"name": "",
+"name_ar": "استرداد عائدات الفساد والتعاون الدولي",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332304",
+"name": "",
+"name_ar": "اصول التفاوض",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232310",
+"name": "",
+"name_ar": "اضطرابات اللغة في الوسط المدرسي",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A1202",
+"name": "",
+"name_ar": "اقتصاد جزئي 2",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1102",
+"name": "",
+"name_ar": "اقتصاد جزئي1",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20361207",
+"name": "",
+"name_ar": "اقتصاد قياسي مالي",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10312302",
+"name": "",
+"name_ar": "اقتصاد كلي 1",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312407",
+"name": "",
+"name_ar": "اقتصاد كلي 2",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2302",
+"name": "",
+"name_ar": "اقتصاد كلي1",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2402",
+"name": "",
+"name_ar": "اقتصاد كلي2",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2304",
+"name": "",
+"name_ar": "اقتصاد نقدي",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312307",
+"name": "",
+"name_ar": "اقتصاد نقدي",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20152307",
+"name": "",
+"name_ar": "الأجهزة الرقابية المتخصصة",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321205",
+"name": "",
+"name_ar": "الأساليب الكمية في الإدارة",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351205",
+"name": "",
+"name_ar": "الأساليب الكمية في الإدارة",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341205",
+"name": "",
+"name_ar": "الأساليب الكمية في التسويق",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121105",
+"name": "",
+"name_ar": "الأملاك الوطنية وتهيئة الاقليم",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331208",
+"name": "",
+"name_ar": "الأمن السيبراني",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151209",
+"name": "",
+"name_ar": "الأمن السيبراني",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211102",
+"name": "",
+"name_ar": "الأنواع الصحفية في الصحافة المطبوعة",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211207",
+"name": "",
+"name_ar": "الأنواع الصحفية في الصحافة الاالكترونية",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211206",
+"name": "",
+"name_ar": "الإتجاهات البحثية الحديثة في الصحافة",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211108",
+"name": "",
+"name_ar": "الإتصال الاجتماعي والسياسي",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20111205",
+"name": "",
+"name_ar": "الإتصال والتكنولوجيات الحديثة في البحث العلمي",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131202",
+"name": "",
+"name_ar": "الإثبات الجنائي 2",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151102",
+"name": "",
+"name_ar": "الإجراءات الجزائية لمكافحة الفساد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151207",
+"name": "",
+"name_ar": "الإدارة الإستراتيجية للوقاية و مكافحة الفساد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351102",
+"name": "",
+"name_ar": "الإدارة الاستراتيجية للأعمال الالكترونية",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351202",
+"name": "",
+"name_ar": "الإدارة الالكترونية لسلسلة الإمداد",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112301",
+"name": "",
+"name_ar": "الإفلاس والتسوية القضائية",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2309",
+"name": "",
+"name_ar": "الإنجليزية الإقتصادية العامة",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312310",
+"name": "",
+"name_ar": "الإنجليزية الاقتصادية العامة",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20221104",
+"name": "",
+"name_ar": "الاتجاهات الحديثة في العلاقات العامة",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212301",
+"name": "",
+"name_ar": "الاتجاهات النقدية في الاعلام والاتصال",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10233601",
+"name": "",
+"name_ar": "الاتصال التننظيمي",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20221103",
+"name": "",
+"name_ar": "الاتصال و التسويق الرقمي",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221201",
+"name": "",
+"name_ar": "الاتصال وإدارة الجودة",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221203",
+"name": "",
+"name_ar": "الاتصال والعلاقات العامة الرقمية",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331202",
+"name": "",
+"name_ar": "الادارة الاسترتيجية",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322303",
+"name": "",
+"name_ar": "الادارة الالكترونية",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20222301",
+"name": "",
+"name_ar": "الاشهار في البيئة الرقمية",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231103",
+"name": "",
+"name_ar": "الاضطرابات السلوكية في الوسط المدرسي",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332307",
+"name": "",
+"name_ar": "الاقتصاد الاخضر",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332306",
+"name": "",
+"name_ar": "الاقتصاد الجزائري و العولمة",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10201208",
+"name": "",
+"name_ar": "البحث الوثائقي",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20222307",
+"name": "",
+"name_ar": "البرامج الحرة والمصادر المفتوحة",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212309",
+"name": "",
+"name_ar": "البرامج الحرة والمصادر المفتوحة",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232304",
+"name": "",
+"name_ar": "البرامج الحرة والمصادر المفتوحة",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121109",
+"name": "",
+"name_ar": "البرمجة",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141108",
+"name": "",
+"name_ar": "البرمجة",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131109",
+"name": "",
+"name_ar": "البرمجة",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151109",
+"name": "",
+"name_ar": "البرمجة",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231109",
+"name": "",
+"name_ar": "البرمجة و الذكاء الاصطناعي1",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "2011210",
+"name": "",
+"name_ar": "البرمجة و الذكاء الاصطناعي2",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211109",
+"name": "",
+"name_ar": "البرمجة والذكاء االصطناعي 1",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221109",
+"name": "",
+"name_ar": "البرمجة والذكاء الاصطناعي1",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221210",
+"name": "",
+"name_ar": "البرمجة والذكاء الاصطناعي2",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232311",
+"name": "",
+"name_ar": "البيداغوجية الفارقة",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331204",
+"name": "",
+"name_ar": "التحرير الاداري",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121205",
+"name": "",
+"name_ar": "التحرير الاداري 2",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131103",
+"name": "",
+"name_ar": "التحقيق في المادة الجزائية",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20111207",
+"name": "",
+"name_ar": "التحكيم التجاري الدولي",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221202",
+"name": "",
+"name_ar": "التخطيط في العلاقات العامة",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151201",
+"name": "",
+"name_ar": "التدابير الوقائية من الفساد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232309",
+"name": "",
+"name_ar": "التدخل السلوكي المعرفي في المشكلات المدرسية",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322402",
+"name": "",
+"name_ar": "التربص في المؤسسة",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10312403",
+"name": "",
+"name_ar": "التسويق",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20351101",
+"name": "",
+"name_ar": "التسويق الالكتروني",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20342302",
+"name": "",
+"name_ar": "التسويق الصناعي الرقمي",
+"class": "Deuxième année (Marketing Numérique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10233608",
+"name": "",
+"name_ar": "التسويق و الإشهار",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10242309",
+"name": "",
+"name_ar": "التسيير الإداري والمالي للمؤسسات الوثائقية",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20361102",
+"name": "",
+"name_ar": "التسيير البنكي المعمق",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321101",
+"name": "",
+"name_ar": "التسيير العمومي الحديث",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121106",
+"name": "",
+"name_ar": "التسيير العمومي الحديث",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3505",
+"name": "",
+"name_ar": "التسيير المالي",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20311103",
+"name": "",
+"name_ar": "التسيير المالي المعمق",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361101",
+"name": "",
+"name_ar": "التسيير المالي المعمق",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231204",
+"name": "",
+"name_ar": "التشخيص النفسي في الوسط المدرسي",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131106",
+"name": "",
+"name_ar": "التشريع الجنائي في الاسلام",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212404",
+"name": "",
+"name_ar": "التشريع والتنظيم المتعلق بوسائل الاعلام",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20331205",
+"name": "",
+"name_ar": "التقنيات الاحصائية",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361104",
+"name": "",
+"name_ar": "التكنولوجيا المالية",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232303",
+"name": "",
+"name_ar": "التوجيه المدرسي ( منهجية )",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20222302",
+"name": "",
+"name_ar": "الثقافة الاتصالية داخل المؤسسة",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311204",
+"name": "",
+"name_ar": "الجباية الدولية",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121207",
+"name": "",
+"name_ar": "الجرائم الاقتصادية 2",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131102",
+"name": "",
+"name_ar": "الجرائم الواقعة على الأشخاص",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131201",
+"name": "",
+"name_ar": "الجرائم ضد الأموال",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151106",
+"name": "",
+"name_ar": "الحكم الراشد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223508",
+"name": "",
+"name_ar": "الحكم الراشد و أخلقيات المهنة",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233508",
+"name": "",
+"name_ar": "الحكم الراشد و اخلقيات المهنة",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20212302",
+"name": "",
+"name_ar": "الحملات الاعلامية",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231104",
+"name": "",
+"name_ar": "الدمج المدرسي",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331109",
+"name": "",
+"name_ar": "الذكاء الاصطناعي",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20352305",
+"name": "",
+"name_ar": "الذكاء الاصطناعي و تحليل البيانات الضخمة",
+"class": "Deuxième année (Administration Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321204",
+"name": "",
+"name_ar": "الرقابة و التدقيق في القطاع العمومي",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131101",
+"name": "",
+"name_ar": "السياسة الجنائية",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20152302",
+"name": "",
+"name_ar": "السياسة الجنائية في مواجهة جرائم الفساد",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10113502",
+"name": "",
+"name_ar": "الشركات التجارية",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111201",
+"name": "",
+"name_ar": "الشركات التجارية 2",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112309",
+"name": "",
+"name_ar": "الشركات الناشئة الرشيقة (Lean Startup)",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151203",
+"name": "",
+"name_ar": "الشفافية كآلية للحد من الفساد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212303",
+"name": "",
+"name_ar": "الصحافة المتخصصة في الجزائر",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223603",
+"name": "",
+"name_ar": "الصحافة الإذاعية و التلفزيونية",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20211101",
+"name": "",
+"name_ar": "الصحافة الرقمية",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212304",
+"name": "",
+"name_ar": "الصحافة الرقمية استكشافية",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211103",
+"name": "",
+"name_ar": "الصحافة المطبوعةالإلكترونية في الجزائر",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231208",
+"name": "",
+"name_ar": "الصحة النفسية",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361204",
+"name": "",
+"name_ar": "الصرفية الإلكترونية",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321104",
+"name": "",
+"name_ar": "الصفقات العمومية",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211208",
+"name": "",
+"name_ar": "الصورة الرقمية",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121102",
+"name": "",
+"name_ar": "العقود الإدارية",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10113601",
+"name": "",
+"name_ar": "العقود خاصة 2",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20231207",
+"name": "",
+"name_ar": "العلاجات النفسية في الوسط المدرسي2",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10233604",
+"name": "",
+"name_ar": "العلاقات العامة",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20322401",
+"name": "",
+"name_ar": "العمل الشخصي (مذكرة)",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321107",
+"name": "",
+"name_ar": "القانون الإداري",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123602",
+"name": "",
+"name_ar": "القانون الإقتصادي العام",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20312306",
+"name": "",
+"name_ar": "القانون الجزائي للأعمال",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20111203",
+"name": "",
+"name_ar": "القانون الجنائي للأعمال 2",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112303",
+"name": "",
+"name_ar": "القانون الدولي للأعمال",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141102",
+"name": "",
+"name_ar": "القانون الصحي للعمل",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102301",
+"name": "",
+"name_ar": "القانون المدني1",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10102401",
+"name": "",
+"name_ar": "القانون المدني2(أحكام الإلتزامات)",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123501",
+"name": "",
+"name_ar": "القرارات و العقود الإدارية",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20121103",
+"name": "",
+"name_ar": "القضاء الإداري",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112302",
+"name": "",
+"name_ar": "القيم المنقولة وعمليات البورصة",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211203",
+"name": "",
+"name_ar": "الكتابة للواب",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221110",
+"name": "",
+"name_ar": "اللغة الأجنبية",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211110",
+"name": "",
+"name_ar": "اللغة الأجنبية",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221209",
+"name": "",
+"name_ar": "اللغة الأجنبية",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20222309",
+"name": "",
+"name_ar": "اللغة الأجنبية",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211209",
+"name": "",
+"name_ar": "اللغة الأجنبية : الكتابة الاكاديمية",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212310",
+"name": "",
+"name_ar": "اللغة الأجنبية3",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232307",
+"name": "",
+"name_ar": "اللغة الإنجليزية",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A1108",
+"name": "",
+"name_ar": "اللغة الإنجليزية الأكاديمية",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20321208",
+"name": "",
+"name_ar": "اللغة الإنجليزية للأبحاث وكتابة المذكرات",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351208",
+"name": "",
+"name_ar": "اللغة الإنجليزية للأبحاث وكتابة المذكرات",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311208",
+"name": "",
+"name_ar": "اللغة الانجليزية للأبحاث وكتابة المذكرات",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311106",
+"name": "",
+"name_ar": "المؤسسات الناشئة المرنة",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321106",
+"name": "",
+"name_ar": "المؤسسات الناشئة المرنة",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341106",
+"name": "",
+"name_ar": "المؤسسات الناشئة المرنة",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351106",
+"name": "",
+"name_ar": "المؤسسات الناشئة المرنة",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361106",
+"name": "",
+"name_ar": "المؤسسات الناشئة المرنة",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20111206",
+"name": "",
+"name_ar": "المؤسسة و حماية البيئة",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361205",
+"name": "",
+"name_ar": "المالية الإسلامية و التأمين التكافلي",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321203",
+"name": "",
+"name_ar": "المالية العمومية المعمقة",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10101106",
+"name": "",
+"name_ar": "المجتمع الدولي (The international Community)",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20321102",
+"name": "",
+"name_ar": "المحاسبة العمومية",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311203",
+"name": "",
+"name_ar": "المحاسبة القطاعية 1",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20312303",
+"name": "",
+"name_ar": "المحاسبة القطاعية2",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A1201",
+"name": "",
+"name_ar": "المحاسبة المالية 2",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A3501",
+"name": "",
+"name_ar": "المحاسبة المالية المعمقة1",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A3601",
+"name": "",
+"name_ar": "المحاسبة المالية المعمقة2",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1101",
+"name": "",
+"name_ar": "المحاسبة المالية1",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20332303",
+"name": "",
+"name_ar": "المحاسبة و التسيير المالي",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211105",
+"name": "",
+"name_ar": "المداخل الأساسية في بحوث الصحافة",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131203",
+"name": "",
+"name_ar": "المسؤولية الجنائية 2",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112305",
+"name": "",
+"name_ar": "المشروع الشخصي و المهني",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20111204",
+"name": "",
+"name_ar": "المشروع الشخصي والمهني",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20132305",
+"name": "",
+"name_ar": "المشروع المهني والشخصي",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20152305",
+"name": "",
+"name_ar": "المشروع المهني والشخصي",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A1209",
+"name": "",
+"name_ar": "المصطلحات الاقتصادية الإنجليزية",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2404",
+"name": "",
+"name_ar": "المعايرالمحاسبية الدولية",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20311104",
+"name": "",
+"name_ar": "المعايير الدولية للتدقيق",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10242305",
+"name": "",
+"name_ar": "المعايير الموحدة لوصف أوعية المعلومات",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20121107",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141107",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151107",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131107",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223509",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233509",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111109",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232305",
+"name": "",
+"name_ar": "المقاولاتية",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211201",
+"name": "",
+"name_ar": "المقاولاتية في علوم الاعلام و الاتصال",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10113607",
+"name": "",
+"name_ar": "الملكية الفكرية",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123607",
+"name": "",
+"name_ar": "الملكية الفكرية",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111202",
+"name": "",
+"name_ar": "الملكية الفكرية 2",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211205",
+"name": "",
+"name_ar": "المناهج الكمية في بحوث الصحافة",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212305",
+"name": "",
+"name_ar": "المناهج الكيفية",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361103",
+"name": "",
+"name_ar": "المنتجات البنكية و التأمينية",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20312403",
+"name": "",
+"name_ar": "المنتدى العام للطالب",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322403",
+"name": "",
+"name_ar": "المنتدى العام للطالب",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332401",
+"name": "",
+"name_ar": "المنتدى العام للطالب",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123601",
+"name": "",
+"name_ar": "المنزعات الإدارية",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312308",
+"name": "",
+"name_ar": "المنهجية",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113506",
+"name": "",
+"name_ar": "المواريث",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20331207",
+"name": "",
+"name_ar": "النزاهة ومكافحة الفساد",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121101",
+"name": "",
+"name_ar": "النظام القانوني للمرفق العام",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141208",
+"name": "",
+"name_ar": "النظام القانوني للنقابات",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311105",
+"name": "",
+"name_ar": "النظم المحاسبية المقارنة",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151205",
+"name": "",
+"name_ar": "النمذجة الإحصائية",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20352303",
+"name": "",
+"name_ar": "النمذجة التنبؤية للأعمال",
+"class": "Deuxième année (Administration Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231209",
+"name": "",
+"name_ar": "الوساطة المدرسية",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123502",
+"name": "",
+"name_ar": "الوظيفة العمومية",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20221204",
+"name": "",
+"name_ar": "اليقظة الإستراتيجية",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10233610",
+"name": "",
+"name_ar": "اليقظة الاستراتيجية والذكاء الاقتصادي",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233510",
+"name": "",
+"name_ar": "انجليزية",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20122308",
+"name": "",
+"name_ar": "انجليزية",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332309",
+"name": "",
+"name_ar": "انجليزية أعمال 3",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121208",
+"name": "",
+"name_ar": "انجليزية2",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311207",
+"name": "",
+"name_ar": "برمجيات إحصائية",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322305",
+"name": "",
+"name_ar": "برمجيات إحصائية حرة",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20352306",
+"name": "",
+"name_ar": "برمجيات إحصائية حرة",
+"class": "Deuxième année (Administration Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20342304",
+"name": "",
+"name_ar": "برمجيات التسويق الرقمي",
+"class": "Deuxième année (Marketing Numérique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212406",
+"name": "",
+"name_ar": "برمجيات تحليل البيانات",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111107",
+"name": "",
+"name_ar": "بورصة القيم المنقولة",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232308",
+"name": "",
+"name_ar": "تأهيل الفئات الخاصة",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A1110",
+"name": "",
+"name_ar": "تاريخ الجزائر",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101108",
+"name": "",
+"name_ar": "تاريخ الجزائر",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20211107",
+"name": "",
+"name_ar": "تاريخ الجزائر الثقافي",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10201103",
+"name": "",
+"name_ar": "تاريخ الجزائر العام 1",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201203",
+"name": "",
+"name_ar": "تاريخ الجزائر العام 2",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1204",
+"name": "",
+"name_ar": "تاريخ الفكرالإقتصادي",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101105",
+"name": "",
+"name_ar": "تاريخ النظم القانونية",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20141205",
+"name": "",
+"name_ar": "تحرير إداري",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20142304",
+"name": "",
+"name_ar": "تحرير العرائض والتعليق على الأحكام والقرارات القضائية",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20132303",
+"name": "",
+"name_ar": "تحقيق ومحاكمة",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3607",
+"name": "",
+"name_ar": "تحليل البيانات",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20341204",
+"name": "",
+"name_ar": "تحليل البيانات الرقمية والذكاء الاصطناعي",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341105",
+"name": "",
+"name_ar": "تحليل السلاسل الزمنية",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361105",
+"name": "",
+"name_ar": "تحليل السلاسل الزمنية",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332305",
+"name": "",
+"name_ar": "تحليل المعطيات",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351105",
+"name": "",
+"name_ar": "تخطيط موارد المؤسسة",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223506",
+"name": "",
+"name_ar": "تدريب على تصميم عمل علمي متخصص",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233506",
+"name": "",
+"name_ar": "تدريب على تصميم عمل علمي متخصص",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A3603",
+"name": "",
+"name_ar": "تدقيق محاسبي",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212409",
+"name": "",
+"name_ar": "ترجمة اعلامية",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20132302",
+"name": "",
+"name_ar": "تسبيب الأحكام الجزائية",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20342303",
+"name": "",
+"name_ar": "تسويق محركات البحث SEM",
+"class": "Deuxième année (Marketing Numérique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10312402",
+"name": "",
+"name_ar": "تسيير المؤسسة",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20142307",
+"name": "",
+"name_ar": "تسيير الموارد البشرية",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121206",
+"name": "",
+"name_ar": "تشريع مالي 2",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211104",
+"name": "",
+"name_ar": "تشريعات وأخلاقيات الصحافة",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221207",
+"name": "",
+"name_ar": "تصميم الحمالت على الواب",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211202",
+"name": "",
+"name_ar": "تصميم صحيفة الكترونية",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322306",
+"name": "",
+"name_ar": "تصميم وتحليل السياسة العمومية",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311107",
+"name": "",
+"name_ar": "تطبيقات التعلم العميق",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321105",
+"name": "",
+"name_ar": "تطبيقات التعلم العميق",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351107",
+"name": "",
+"name_ar": "تطبيقات التعلم العميق",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20342305",
+"name": "",
+"name_ar": "تطبيقات التعلم العميق",
+"class": "Deuxième année (Marketing Numérique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20122302",
+"name": "",
+"name_ar": "تطبيقات الدعوى الإدارية",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102405",
+"name": "",
+"name_ar": "تطبيقات الذكاء الإصطناعي في البحت العلمي",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20222308",
+"name": "",
+"name_ar": "تطبيقات العلاقات العامة في الجزائر",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20352304",
+"name": "",
+"name_ar": "تطوير أنظمة الأعمال الالكترونية",
+"class": "Deuxième année (Administration Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20122304",
+"name": "",
+"name_ar": "تقنيات إعداد البحوث العلمية",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3506",
+"name": "",
+"name_ar": "تقنيات الإستقصاء",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10313501",
+"name": "",
+"name_ar": "تقنيات الإستقصاء",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233603",
+"name": "",
+"name_ar": "تقنيات الاتصال",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20122305",
+"name": "",
+"name_ar": "تقنيات الاعلام و الاتصال",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102304",
+"name": "",
+"name_ar": "تقنيات البحث العلمي",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20361201",
+"name": "",
+"name_ar": "تقنيات البنوك",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141204",
+"name": "",
+"name_ar": "تقنيات التحرير في البحوث القانونية",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231106",
+"name": "",
+"name_ar": "تقنيات جمع البيانات",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20312304",
+"name": "",
+"name_ar": "تقييم المؤسسات",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321202",
+"name": "",
+"name_ar": "تقييم المشاريع العمومية",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212302",
+"name": "",
+"name_ar": "تكنولوجيا الإعلام والاتصال1",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212402",
+"name": "",
+"name_ar": "تكنولوجيا الإعلام والاتصال2",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20222310",
+"name": "",
+"name_ar": "تكنولوجيا الاتصال والفضاء العمومي",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10242301",
+"name": "",
+"name_ar": "تكنولوجيا المعلومات والتوثيق",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20131205",
+"name": "",
+"name_ar": "تكنولوجيات الإعلام والاتصال",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10101103",
+"name": "",
+"name_ar": "تنظيم قضائي 1",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101203",
+"name": "",
+"name_ar": "تنظيم قضائي 2",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20311205",
+"name": "",
+"name_ar": "تنظيم و أخلاقيات مهنة المحاسبة",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20132301",
+"name": "",
+"name_ar": "تنفيذ العقوبات الجزائية",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3502",
+"name": "",
+"name_ar": "جباية المؤسسة 1",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A3602",
+"name": "",
+"name_ar": "جباية المؤسسة 2",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20151101",
+"name": "",
+"name_ar": "جرائم الفساد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102404",
+"name": "",
+"name_ar": "حقوق الإنسان",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233507",
+"name": "",
+"name_ar": "حملات لإتصال العمومي",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20312305",
+"name": "",
+"name_ar": "حوكمة الشركات",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10223507",
+"name": "",
+"name_ar": "دراسات جمهور وسائل الإعلام",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233503",
+"name": "",
+"name_ar": "دراسة جمهور وسائل الإعلام",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312406",
+"name": "",
+"name_ar": "ريادة الأعمال (Entreprenariat",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20352307",
+"name": "",
+"name_ar": "ريادة الأعمال الرقمية",
+"class": "Deuxième année (Administration Electronique Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2408",
+"name": "",
+"name_ar": "ريادة الأعمال(entreprenariat)",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1206",
+"name": "",
+"name_ar": "رياضيات 2",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2306",
+"name": "",
+"name_ar": "رياضيات مالية",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312306",
+"name": "",
+"name_ar": "رياضيات مالية",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1105",
+"name": "",
+"name_ar": "رياضيات1",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20341102",
+"name": "",
+"name_ar": "سلوك المستهلك الالكتروني المعمق",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151105",
+"name": "",
+"name_ar": "سوسيولوجيا الفساد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231102",
+"name": "",
+"name_ar": "سيكولوجية الإعاقة",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212307",
+"name": "",
+"name_ar": "سيميولوجيا الاتصال",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20142309",
+"name": "",
+"name_ar": "شركات الناشئة الرشيقة (Lean Startup)",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20211204",
+"name": "",
+"name_ar": "صحافة البيانات",
+"class": "Première année (Presse Ecrite et Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231210",
+"name": "",
+"name_ar": "صعوبات التعلم الاكادمية",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231101",
+"name": "",
+"name_ar": "صعوبات التعلم النمائية",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121201",
+"name": "",
+"name_ar": "صفقات عمومية 2",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20222304",
+"name": "",
+"name_ar": "صورة وسمعة المؤسسة",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10113507",
+"name": "",
+"name_ar": "طرق الإتباث والتنفيد",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212306",
+"name": "",
+"name_ar": "عرض و تحليل البيانات",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111101",
+"name": "",
+"name_ar": "عقود الأعمال",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10113501",
+"name": "",
+"name_ar": "عقود خاصة ( عقد البيع والايجار)",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20141202",
+"name": "",
+"name_ar": "علاقات العمل الجماعية",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131105",
+"name": "",
+"name_ar": "علم الاجرام",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231108",
+"name": "",
+"name_ar": "علم النفس الأسري",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212308",
+"name": "",
+"name_ar": "علم النفس الاجتماعي Social Psychology",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10242302",
+"name": "",
+"name_ar": "علم النفس الاجتماعي للاتصال",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20231107",
+"name": "",
+"name_ar": "علم النفس البيئي في الوسط المدرسي",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232302",
+"name": "",
+"name_ar": "علم النفس البيولوجي والوتيرة المدرسية",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322304",
+"name": "",
+"name_ar": "عمليات الخزينة",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212403",
+"name": "",
+"name_ar": "فنيات التحرير الإعلامي 2",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212303",
+"name": "",
+"name_ar": "فنيات التحرير الاعلامي 1",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223501",
+"name": "",
+"name_ar": "فنيات التحرير في الصحافة الإلكترونية",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123506",
+"name": "",
+"name_ar": "قانون دولي إنساني",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10102302",
+"name": "",
+"name_ar": "قانون إداري 1",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10102408",
+"name": "",
+"name_ar": "قانون إداري 2",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10102308",
+"name": "",
+"name_ar": "قانون الأسرة",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10313502",
+"name": "",
+"name_ar": "قانون الأعمال",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20122303",
+"name": "",
+"name_ar": "قانون الأملاك الوطنية",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102402",
+"name": "",
+"name_ar": "قانون الإجراءات المدنية والإدارية",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20142303",
+"name": "",
+"name_ar": "قانون الإجراءات المدنية والإدارية",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102403",
+"name": "",
+"name_ar": "قانون الاجراءت الجزائية",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111102",
+"name": "",
+"name_ar": "قانون الاستثمار",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20332301",
+"name": "",
+"name_ar": "قانون الاعمال",
+"class": "Deuxième année (Management des Organisations Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361107",
+"name": "",
+"name_ar": "قانون البنوك و قانون التأمينات",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20142302",
+"name": "",
+"name_ar": "قانون التأمينات الاجتماعية",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20122307",
+"name": "",
+"name_ar": "قانون التهيئة والتعمير",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121203",
+"name": "",
+"name_ar": "قانون الحالة المدنية",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3507",
+"name": "",
+"name_ar": "قانون الشركات",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20331106",
+"name": "",
+"name_ar": "قانون الصفقات العمومية",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112307",
+"name": "",
+"name_ar": "قانون الضرائب و الإجراءات الجبائية",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351207",
+"name": "",
+"name_ar": "قانون العقود الالكترونية",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331107",
+"name": "",
+"name_ar": "قانون العمل",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141101",
+"name": "",
+"name_ar": "قانون العمل",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322307",
+"name": "",
+"name_ar": "قانون المؤسسات العمومية",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20111103",
+"name": "",
+"name_ar": "قانون الملكية الصناعية",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20342306",
+"name": "",
+"name_ar": "قانون الملكية الفكرية",
+"class": "Deuxième année (Marketing Numérique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331103",
+"name": "",
+"name_ar": "قانون المنازعات",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141106",
+"name": "",
+"name_ar": "قانون المنافسة",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341107",
+"name": "",
+"name_ar": "قانون المنافسة و حماية المستهلك",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331206",
+"name": "",
+"name_ar": "قانون الوظيف العمومي",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321207",
+"name": "",
+"name_ar": "قانون الوظيفة العمومية",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112306",
+"name": "",
+"name_ar": "قانون الوقاية من الفساد ومكافحته (Law on the Prevention and Combat of Corruption)",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10102306",
+"name": "",
+"name_ar": "قانون تجاري",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1208",
+"name": "",
+"name_ar": "قانون تجاري",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113602",
+"name": "",
+"name_ar": "قانون تجاري (الأوراق التجارية و الإفلاس)",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10102303",
+"name": "",
+"name_ar": "قانون جنائي عام",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111106",
+"name": "",
+"name_ar": "قانون حماية المستهلك",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123505",
+"name": "",
+"name_ar": "قانون دبلوماسي و قنصلي",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101102",
+"name": "",
+"name_ar": "قانون دستوري 1",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101202",
+"name": "",
+"name_ar": "قانون دستوري 2",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20141105",
+"name": "",
+"name_ar": "قانون مدني (العقود الواردة على العمل)",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123605",
+"name": "",
+"name_ar": "قانون مكافحة الفساد",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212309",
+"name": "",
+"name_ar": "قراءات لغوية",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20141201",
+"name": "",
+"name_ar": "قضاء اجتماعي",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121202",
+"name": "",
+"name_ar": "قضاء اداري استعجالي",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131207",
+"name": "",
+"name_ar": "قضاء عسكري",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10212407",
+"name": "",
+"name_ar": "قضايا دولية معاصرة",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20212308",
+"name": "",
+"name_ar": "قضايا راهنة",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341108",
+"name": "",
+"name_ar": "كتابة و تقديم خطط الأعمال باللغة الإنجليزية",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321108",
+"name": "",
+"name_ar": "كتابة وعرض خطط الأعمال باللغة الإنجليزية",
+"class": "Première année (Gestion Publique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311108",
+"name": "",
+"name_ar": "كتابة وعرض خطط الأعمال باللغة الإنجليزية",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351108",
+"name": "",
+"name_ar": "كتابة وعرض خُطط الأعمال باللغة الإنجليزية",
+"class": "Première année (Administration Electronique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10242303",
+"name": "",
+"name_ar": "لغات توثيقية: التصانيف",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20121108",
+"name": "",
+"name_ar": "لغة أجنبية (إنجليزية) 1",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10201110",
+"name": "",
+"name_ar": "لغة أجنبية 1",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201210",
+"name": "",
+"name_ar": "لغة أجنبية 2",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212310",
+"name": "",
+"name_ar": "لغة أجنبية 3",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312408",
+"name": "",
+"name_ar": "لغة أجنبية 3",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10102307",
+"name": "",
+"name_ar": "لغة أجنبية 3 (مصطلحات قانونية)",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212410",
+"name": "",
+"name_ar": "لغة أجنبية 4",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10102407",
+"name": "",
+"name_ar": "لغة أجنبية 4 (مصطلحات قانونية)",
+"class": "Deuxième année (Tronc Commun Droit Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113508",
+"name": "",
+"name_ar": "لغة أجنبية 5",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123508",
+"name": "",
+"name_ar": "لغة أجنبية 5",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223510",
+"name": "",
+"name_ar": "لغة أجنبية 5",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113608",
+"name": "",
+"name_ar": "لغة أجنبية 6",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233609",
+"name": "",
+"name_ar": "لغة أجنبية 6",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123608",
+"name": "",
+"name_ar": "لغة أجنبية 6",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A3508",
+"name": "",
+"name_ar": "لغة أجنبية متخصصة 1",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20361108",
+"name": "",
+"name_ar": "لغة أجنبية متخصصة 1",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3608",
+"name": "",
+"name_ar": "لغة أجنبية متخصصة 2",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20361208",
+"name": "",
+"name_ar": "لغة أجنبية متخصصة 2",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341208",
+"name": "",
+"name_ar": "لغة أجنبية متخصصة 2",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10313503",
+"name": "",
+"name_ar": "لغة أجنبية متخصصة1",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101107",
+"name": "",
+"name_ar": "لغة إنجليزية",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111108",
+"name": "",
+"name_ar": "لغة إنجليزية",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20111208",
+"name": "",
+"name_ar": "لغة إنجليزية",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151208",
+"name": "",
+"name_ar": "لغة إنجليزية 2",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231110",
+"name": "",
+"name_ar": "لغة إنجليزية1",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231203",
+"name": "",
+"name_ar": "لغة إنجليزية1",
+"class": "Première année (psychologie Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10242306",
+"name": "",
+"name_ar": "لغة إنجليزية1",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20112308",
+"name": "",
+"name_ar": "لغة انجليزية",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10101207",
+"name": "",
+"name_ar": "لغة انجليزية",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20151108",
+"name": "",
+"name_ar": "لغة انجليزية 1 English",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123606",
+"name": "",
+"name_ar": "لقانون والقضاء الدولي الجنائي",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20361202",
+"name": "",
+"name_ar": "لهندسة المالية",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20132307",
+"name": "",
+"name_ar": "مؤسسات عقابية",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10123507",
+"name": "",
+"name_ar": "مالية عامة",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2401",
+"name": "",
+"name_ar": "مالية المؤسسة",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A2303",
+"name": "",
+"name_ar": "مالية عمومية",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312304",
+"name": "",
+"name_ar": "مالية عمومية",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20331101",
+"name": "",
+"name_ar": "مبادئ الإدارة المعاصرة",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10201209",
+"name": "",
+"name_ar": "مجالات العلوم الإنسانية",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201108",
+"name": "",
+"name_ar": "مجتمع المعلومات",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20361203",
+"name": "",
+"name_ar": "محاسبة البنوك والتأمينات",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2301",
+"name": "",
+"name_ar": "محاسبة التسيير",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312301",
+"name": "",
+"name_ar": "محاسبة التسيير",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A3504",
+"name": "",
+"name_ar": "محاسبة الشركات",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20311102",
+"name": "",
+"name_ar": "محاسبة الشركات المعمقة 1",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311202",
+"name": "",
+"name_ar": "محاسبة الشركات المعمقة 2",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3605",
+"name": "",
+"name_ar": "محاسبة عمومية",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201105",
+"name": "",
+"name_ar": "مدارس ومناهج البحث العلمي في العلوم الانسانية",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101101",
+"name": "",
+"name_ar": "مدخل إلى القانون 1",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201104",
+"name": "",
+"name_ar": "مدخل إلى علم الآثار 1",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201204",
+"name": "",
+"name_ar": "مدخل إلى علم الآثار 2",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10242307",
+"name": "",
+"name_ar": "مدخل إلى علم الأرشيف",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201102",
+"name": "",
+"name_ar": "مدخل إلى علم المكتبات",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212301",
+"name": "",
+"name_ar": "مدخل إلى وسائل الإعلام والاتصال 1",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201206",
+"name": "",
+"name_ar": "مدخل البرمجة والذكاء الاصطناعي",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101205",
+"name": "",
+"name_ar": "مدخل الى الشريعة الاسلامية",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101201",
+"name": "",
+"name_ar": "مدخل الى القانون 2",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201107",
+"name": "",
+"name_ar": "مدخل الى تاريخ الحضارات القديمة",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201207",
+"name": "",
+"name_ar": "مدخل الى تاريخ الحضارة الإسلامية",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201101",
+"name": "",
+"name_ar": "مدخل الى علوم الاعلام والاتصال",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10201201",
+"name": "",
+"name_ar": "مدخل الى علوم الاعلام والاتصال 2",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1106",
+"name": "",
+"name_ar": "مدخل لعلم اجتماع المنظمات",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1103",
+"name": "",
+"name_ar": "مدخل للاقتصاد",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A1107",
+"name": "",
+"name_ar": "مدخل للقانون",
+"class": "Première année (Tronc Commun SEGSC Licence)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20112402",
+"name": "",
+"name_ar": "مذكرة نهاية الدراسة",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 4,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331201",
+"name": "",
+"name_ar": "مراقبة التسيير",
+"class": "Première année (Management des Organisations Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3604",
+"name": "",
+"name_ar": "مراقبة التسيير",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20322302",
+"name": "",
+"name_ar": "مراقبة التسيير العمومي",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20312301",
+"name": "",
+"name_ar": "مراقبة التسيير المعمقة",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A3606",
+"name": "",
+"name_ar": "مشروع التخرج ليسانس",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 6,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223608",
+"name": "",
+"name_ar": "مشكلات اجتماعية",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20311101",
+"name": "",
+"name_ar": "معايير إعداد التقارير المالية الدولية 1IFRS",
+"class": "Première année (Comptabilité Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311201",
+"name": "",
+"name_ar": "معايير إعداد التقارير المالية الدولية 2",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20312302",
+"name": "",
+"name_ar": "معايير التقارير المالية الدولية في القطاع العام IPSAS",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10113504",
+"name": "",
+"name_ar": "مقاولاتية",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123504",
+"name": "",
+"name_ar": "مقاولاتية",
+"class": "Troisième année (Droit public Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20141207",
+"name": "",
+"name_ar": "مقاولاتية",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2310",
+"name": "",
+"name_ar": "مقدمة في الذكاء الاصطناعي",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10312309",
+"name": "",
+"name_ar": "مقدمة في الذكاء الاصطناعي",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10113604",
+"name": "",
+"name_ar": "ملتقى",
+"class": "Troisième année (Droit Privé Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10123604",
+"name": "",
+"name_ar": "ملتقى",
+"class": "Troisième année (Droit public Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20122401",
+"name": "",
+"name_ar": "ملتقى مكافحة الفساد الإداري",
+"class": "Deuxième année (Droit Administratif Master)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20112401",
+"name": "",
+"name_ar": "ملتقى القانون البنكي و المصرفي",
+"class": "Deuxième année (Droit des Affaires Master)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221205",
+"name": "",
+"name_ar": "ملتقى المنهجية",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10233505",
+"name": "",
+"name_ar": "ملتقى المنهجية 1",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233605",
+"name": "",
+"name_ar": "ملتقى المنهجية 2",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223605",
+"name": "",
+"name_ar": "ملتقى المنهجية2",
+"class": "Troisième année (Information Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20132401",
+"name": "",
+"name_ar": "ملتقى محاربة الجريمة الإلكترونية",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20142301",
+"name": "",
+"name_ar": "منازعات الضمان الاجتماعي والتقاعد",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141203",
+"name": "",
+"name_ar": "منازعات العمل الجماعية وممارسة حق الإضراب",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20231105",
+"name": "",
+"name_ar": "مناهج البحث في علم النفس المدرسي",
+"class": "Première année (psychologie Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10242308",
+"name": "",
+"name_ar": "مناهج البحث في علوم المكتبات1",
+"class": "Deuxième année (Bibliothéconomie et information Licence)",
+"semester": 3,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212305",
+"name": "",
+"name_ar": "مناهج وتقنيات البحث في علوم الإعلام والاتصال 1",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10212405",
+"name": "",
+"name_ar": "مناهج وتقنيات البحث في علوم الإعلام والاتصال 2",
+"class": "Deuxième année (Sciences de l'Information et de la Communication Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20221106",
+"name": "",
+"name_ar": "مناهج وتقنيات البحوث الكيفية 1",
+"class": "Première année (relation publique et comm Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20221206",
+"name": "",
+"name_ar": "مناهج وتقنيات البحوث الكيفية2",
+"class": "Première année (relation publique et comm Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20142305",
+"name": "",
+"name_ar": "منهجة إعداد مشروع شخصي",
+"class": "Deuxième année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030A2308",
+"name": "",
+"name_ar": "منهجية",
+"class": "Deuxième année (Tronc Commun SEGSC Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20132304",
+"name": "",
+"name_ar": "منهجية إعداد مذكرة",
+"class": "Deuxième année (Droit Pénal Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20152304",
+"name": "",
+"name_ar": "منهجية إعداد مذكرة",
+"class": "Deuxième année (lutte anti corruption et transparence Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20311206",
+"name": "",
+"name_ar": "منهجية إعداد مذكرة الماستر",
+"class": "Première année (Comptabilité Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20321206",
+"name": "",
+"name_ar": "منهجية إعداد مذكرة الماستر",
+"class": "Première année (Gestion Publique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20351206",
+"name": "",
+"name_ar": "منهجية إعداد مذكرة الماستر",
+"class": "Première année (Administration Electronique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20361206",
+"name": "",
+"name_ar": "منهجية إعداد مذكرة ماستر",
+"class": "Première année (Banques et Assurances Master)",
+"semester": 2,
+"nature": "Normal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20341206",
+"name": "",
+"name_ar": "منهجية إعداد مذكرة ماستر",
+"class": "Première année (Marketing Numérique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20232301",
+"name": "",
+"name_ar": "منهجية اعداد مذكرة",
+"class": "Deuxième année (psychologie Master)",
+"semester": 3,
+"nature": "",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20222305",
+"name": "",
+"name_ar": "منهجية اعداد مذكرة تخرج (",
+"class": "Deuxième année (relation publique et comm Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20331105",
+"name": "",
+"name_ar": "منهجية البحث",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131204",
+"name": "",
+"name_ar": "منهجية البحث العلمي 2",
+"class": "Première année (Droit Pénal Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151204",
+"name": "",
+"name_ar": "منهجية البحث العلمي 2",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121204",
+"name": "",
+"name_ar": "منهجية البحث العلمي2",
+"class": "Première année (Droit Administratif Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10101104",
+"name": "",
+"name_ar": "منهجية العلوم القانونية 1",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10101204",
+"name": "",
+"name_ar": "منهجية العلوم القانونية 2",
+"class": "Première année (Tronc Commun Droit Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20111104",
+"name": "",
+"name_ar": "منهجية تحرير الوثائق القانونية والقضائية",
+"class": "Première année (Droit des Affaires Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20121104",
+"name": "",
+"name_ar": "منهجية تحرير الوثائق القانونية والقضائية",
+"class": "Première année (Droit Administratif Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20131104",
+"name": "",
+"name_ar": "منهجية تحرير الوثائق القانونية والقضائية",
+"class": "Première année (Droit Pénal Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141104",
+"name": "",
+"name_ar": "منهجية تحرير الوثائق القانونية والقضائية",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20151104",
+"name": "",
+"name_ar": "منهجية تحرير الوثائق القانونية والقضائية",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20212306",
+"name": "",
+"name_ar": "منهجية مذكرة تخرج",
+"class": "Deuxième année (Presse Ecrite et Electronique Master)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10201205",
+"name": "",
+"name_ar": "منهجية وتقنيات البحث العلمي في العلوم الإنسانية",
+"class": "Première année (Tronc Commun Sciences Humaines Licence)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20342307",
+"name": "",
+"name_ar": "ندوة في التسويق الرقمي",
+"class": "Deuxième année (Marketing Numérique Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20312307",
+"name": "",
+"name_ar": "ندوة في القضايا المحاسبية المعاصرة",
+"class": "Deuxième année (Comptabilité Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20322308",
+"name": "",
+"name_ar": "ندوة في تسويق الخدمات العمومية",
+"class": "Deuxième année (Gestion Publique Master)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20141103",
+"name": "",
+"name_ar": "نظام التأمينات الاجتماعية في الجزائر",
+"class": "Première année (Droit du Travail et Sécurité Sociale Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10233502",
+"name": "",
+"name_ar": "نظريات الإعلام و الإتصال 1",
+"class": "Troisième année (Communication Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10233602",
+"name": "",
+"name_ar": "نظريات الإعلام و الإتصال 2",
+"class": "Troisième année (Communication Licence)",
+"semester": 6,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10223502",
+"name": "",
+"name_ar": "نظريات الإعلام و الإتصال1",
+"class": "Troisième année (Information Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030A3503",
+"name": "",
+"name_ar": "نظرية المحاسبة",
+"class": "Troisième année (Tronc Commun SEGSC Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20331102",
+"name": "",
+"name_ar": "نظرية المنظمة",
+"class": "Première année (Management des Organisations Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10312405",
+"name": "",
+"name_ar": "نظم المعلومات الإدارية",
+"class": "Deuxième année (lic gesttion Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20151103",
+"name": "",
+"name_ar": "هيئات وقاية ومكافحة الفساد",
+"class": "Première année (lutte anti corruption et transparence Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10313507",
+"name": "",
+"name_ar": "هياكل وتنظيم المؤسسة",
+"class": "Troisième année (lic gesttion Licence)",
+"semester": 5,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411205",
+"name": "Accounting for managers 1",
+"name_ar": "Accounting for managers 1",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611103",
+"name": "Administration des Systèmes et Réseaux",
+"name_ar": "Administration des Systèmes et Réseaux",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401208",
+"name": "Advanced Academic Writing 1",
+"name_ar": "Advanced Academic Writing 1",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10403503",
+"name": "Advanced grammar",
+"name_ar": "Advanced grammar",
+"class": "Troisième année (Littérature et langues étrangères Licence)",
+"semester": 5,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411106",
+"name": "Advanced technical writing 1",
+"name_ar": "Advanced technical writing 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411203",
+"name": "Advanced technical writing2",
+"name_ar": "Advanced technical writing2",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611106",
+"name": "Algorithmique et Programmation avancées Systèmes et Réseaux",
+"name_ar": "Algorithmique et Programmation avancées Systèmes et Réseaux",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611107",
+"name": "Analyse des Données et Apprentissage automatique",
+"name_ar": "Analyse des Données et Apprentissage automatique",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611108",
+"name": "Anglais Technique 1",
+"name_ar": "Anglais Technique 1",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611206",
+"name": "Anglais Technique 2",
+"name_ar": "Anglais Technique 2",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401103",
+"name": "Applied Linguistics 1",
+"name_ar": "Applied Linguistics 1",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Business Ethics",
+"name_ar": "Business Ethics",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411109",
+"name": "Business Ethics 1",
+"name_ar": "Business Ethics 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411204",
+"name": "Business Law",
+"name_ar": "Business Law",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Business Management",
+"name_ar": "Business Management",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10411102",
+"name": "Comprehension and Oral Expression 1",
+"name_ar": "Comprehension and Oral Expression 1",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "en",
+"name": "Comprehension and Oral Expression 2",
+"name_ar": "Comprehension and Oral Expression 2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10411101",
+"name": "Comprehension and Written Expression 1",
+"name_ar": "Comprehension and Written Expression 1",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "en",
+"name": "Comprehension and Written Expression 2",
+"name_ar": "Comprehension and Written Expression 2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20401201",
+"name": "Computer Programming (CP)",
+"name_ar": "Computer Programming (CP)",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411210",
+"name": "Computer Programming (CP)",
+"name_ar": "Computer Programming (CP)",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E2309",
+"name": "Computer Science 2",
+"name_ar": "Computer Science 2",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20611208",
+"name": "Conduite de Projets Complexes",
+"name_ar": "Conduite de Projets Complexes",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Corporate Finance",
+"name_ar": "Corporate Finance",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10411104",
+"name": "Corrective and Articulatory Phonetics 1",
+"name_ar": "Corrective and Articulatory Phonetics 1",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10412102",
+"name": "Corrective and Articulatory Phonetics 2",
+"name_ar": "Corrective and Articulatory Phonetics 2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10412101",
+"name": "Culture(s)/Civilization(S) of Language2",
+"name_ar": "Culture(s)/Civilization(S) of Language2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20401102",
+"name": "Educational Psychology 1",
+"name_ar": "Educational Psychology 1",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401107",
+"name": "Educational Technology 1",
+"name_ar": "Educational Technology 1",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401206",
+"name": "Educational Technology 2",
+"name_ar": "Educational Technology 2",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411202",
+"name": "English for Management Communication 2",
+"name_ar": "English for Management Communication 2",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411102",
+"name": "English for Management communication 1",
+"name_ar": "English for Management communication 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Entreprenariat",
+"name_ar": "Entreprenariat",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20401108",
+"name": "Ethics and Deontology",
+"name_ar": "Ethics and Deontology",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411104",
+"name": "Financial Management 1",
+"name_ar": "Financial Management 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E2306",
+"name": "Financial mathematics",
+"name_ar": "Financial mathematics",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Foreign Language",
+"name_ar": "Foreign Language",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10412103",
+"name": "Foreign Language 2 (French)",
+"name_ar": "Foreign Language 2 (French)",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20401106",
+"name": "Free and open-source software (FOSS)",
+"name_ar": "Free and open-source software (FOSS)",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411107",
+"name": "Free and open-source software 1",
+"name_ar": "Free and open-source software 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411101",
+"name": "Fundamental Management 1",
+"name_ar": "Fundamental Management 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Fundamentals of Operations Research",
+"name_ar": "Fundamentals of Operations Research",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10411103",
+"name": "Grammar of the Language of Study 1",
+"name_ar": "Grammar of the Language of Study 1",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "en",
+"name": "Grammar of the Language of Study 2",
+"name_ar": "Grammar of the Language of Study 2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411103",
+"name": "Human resources management 1",
+"name_ar": "Human resources management 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "International Accounting Standards",
+"name_ar": "International Accounting Standards",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20611203",
+"name": "Internet des Objets (IoT), Frameworks et Sécurité",
+"name_ar": "Internet des Objets (IoT), Frameworks et Sécurité",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E2307",
+"name": "Introduction to Business Administration",
+"name_ar": "Introduction to Business Administration",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "en",
+"name": "Introduction to Linguistics 2 (Concepts)",
+"name_ar": "Introduction to Linguistics 2 (Concepts)",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411201",
+"name": "Knowledge Management",
+"name_ar": "Knowledge Management",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10412104",
+"name": "Literature of the Language of Study 2",
+"name_ar": "Literature of the Language of Study 2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Macroeconomics 2",
+"name_ar": "Macroeconomics 2",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E2302",
+"name": "Macroeconomics1",
+"name_ar": "Macroeconomics1",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E2301",
+"name": "Magement Accounting",
+"name_ar": "Magement Accounting",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20611101",
+"name": "Management de la Sécurité et analyse des risques",
+"name_ar": "Management de la Sécurité et analyse des risques",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411208",
+"name": "Marketing Strategy",
+"name_ar": "Marketing Strategy",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10411108",
+"name": "Medical Terminology 1",
+"name_ar": "Medical Terminology 1",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E2304",
+"name": "Monetary Economics",
+"name_ar": "Monetary Economics",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411209",
+"name": "Organizational Culture",
+"name_ar": "Organizational Culture",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611102",
+"name": "Projets Réseaux en Entreprise",
+"name_ar": "Projets Réseaux en Entreprise",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E2303",
+"name": "Public finance",
+"name_ar": "Public finance",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "1030E1109",
+"name": "Python Fundamentals 1",
+"name_ar": "Python Fundamentals 1",
+"class": "Première année (Bachelor of Economics, Sciences Licence)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "10411106",
+"name": "Reading and Analysis of Medical Texts",
+"name_ar": "Reading and Analysis of Medical Texts",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20401105",
+"name": "Research Methodology 1",
+"name_ar": "Research Methodology 1",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411206",
+"name": "Research Methods for Management II",
+"name_ar": "Research Methods for Management II",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Transversal",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20411105",
+"name": "Research Methods for Management1",
+"name_ar": "Research Methods for Management1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611105",
+"name": "Réseaux et Protocoles",
+"name_ar": "Réseaux et Protocoles",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611104",
+"name": "Réseaux mobiles et réseaux sans fil 1",
+"name_ar": "Réseaux mobiles et réseaux sans fil 1",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611201",
+"name": "Réseaux mobiles et réseaux sans fil 2",
+"name_ar": "Réseaux mobiles et réseaux sans fil 2",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E2305",
+"name": "STATISTICS 3",
+"name_ar": "STATISTICS 3",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20611204",
+"name": "Services réseau étendus",
+"name_ar": "Services réseau étendus",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10411107",
+"name": "Social and Human Sciences 1",
+"name_ar": "Social and Human Sciences 1",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "en",
+"name": "Social and Human Sciences 2",
+"name_ar": "Social and Human Sciences 2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411108",
+"name": "Sociology of organization 1",
+"name_ar": "Sociology of organization 1",
+"class": "Première année (Management in english Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "b4",
+"name": "Statistics 4",
+"name_ar": "Statistics 4",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 4,
+"nature": "Magistral",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20411207",
+"name": "Strategy Management",
+"name_ar": "Strategy Management",
+"class": "Première année (Management in english Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401104",
+"name": "Syllabus Design and Evaluation 1",
+"name_ar": "Syllabus Design and Evaluation 1",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611202",
+"name": "Sécurisation des Bases de Données Réseaux",
+"name_ar": "Sécurisation des Bases de Données Réseaux",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611207",
+"name": "Sécurité des Réseaux Mobiles et Sans fil",
+"name_ar": "Sécurité des Réseaux Mobiles et Sans fil",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20611205",
+"name": "Sécurité des réseaux et des services",
+"name_ar": "Sécurité des réseaux et des services",
+"class": "Première année (réseaux et sécurité informatique Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401204",
+"name": "Teaching english as forieing language2",
+"name_ar": "Teaching english as forieing language2",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401101",
+"name": "Teaching English as a Foreign Language 1 (TEFL)",
+"name_ar": "Teaching English as a Foreign Language 1 (TEFL)",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 1,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "10411105",
+"name": "University Work Techniques 1",
+"name_ar": "University Work Techniques 1",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 1,
+"nature": "Normal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "en",
+"name": "University Work Techniques 2",
+"name_ar": "University Work Techniques 2",
+"class": "Première année (English for Medical Purposes Licence)",
+"semester": 2,
+"nature": "",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20401209",
+"name": "applied linguistics2",
+"name_ar": "applied linguistics2",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401205",
+"name": "educational psychology2",
+"name_ar": "educational psychology2",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "1030E2308",
+"name": "methodology",
+"name_ar": "methodology",
+"class": "Deuxième année (Bachelor of Economics, Sciences Licence)",
+"semester": 3,
+"nature": "Transversal",
+"cycle": "Licence",
+"year": "2026"
+},
+{
+"code": "20401202",
+"name": "research methodology2",
+"name_ar": "research methodology2",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+},
+{
+"code": "20401207",
+"name": "syllabus design and evaluation2",
+"name_ar": "syllabus design2",
+"class": "Première année (Didactics & Foreign language Master)",
+"semester": 2,
+"nature": "Magistral",
+"cycle": "Master",
+"year": "2026"
+}
+]

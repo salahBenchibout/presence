@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Presence</title>
+<style>
+:root{--bg:#f3f5f4;--card:#fff;--tx:#14211c;--mu:#5f6e68;--ac:#0b6b4f;--bd:#dde3e0;--ok:#157a4a;--wa:#b36b00;--no:#b3261e}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1512;--card:#162019;--tx:#e6efea;--mu:#94a79f;--ac:#3ecf9b;--bd:#26362e;--ok:#4cd68b;--wa:#f0b44c;--no:#ff8a80}}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 "Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--tx)}
+header{display:flex;gap:12px;align-items:center;padding:12px 16px;background:var(--ac);color:#fff}
+header b{font-size:18px;flex:1;letter-spacing:.2px}header span{opacity:.9}
+nav{display:flex;gap:4px;overflow-x:auto;padding:8px 12px;background:var(--card);border-bottom:1px solid var(--bd)}
+nav button{background:none;border:0;padding:8px 14px;border-radius:6px;color:var(--mu);cursor:pointer;white-space:nowrap;font:inherit}
+nav button.on{background:var(--ac);color:#fff}
+main{max-width:920px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:16px;margin-bottom:14px;overflow-x:auto}
+.card h3{margin:0 0 10px;font-size:16px}.c{text-align:center}.mu{color:var(--mu);margin:6px 0}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.row h3{width:100%}
+input,select,textarea{font:inherit;padding:9px 10px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--tx);min-width:0}
+textarea{width:100%;display:block;margin-bottom:8px}
+button,.btn{font:inherit;padding:9px 14px;border:0;border-radius:6px;background:var(--ac);color:var(--card);cursor:pointer;text-decoration:none}
+button.g,.btn.g{background:none;color:var(--ac);border:1px solid var(--bd)}
+:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+#bar{position:fixed;top:0;left:0;height:3px;width:0;opacity:0;background:var(--wa);box-shadow:0 0 6px var(--wa);z-index:60;pointer-events:none}
+@media(prefers-reduced-motion:reduce){#bar{transition:none!important}}
+#blbl{position:fixed;left:12px;bottom:12px;background:var(--card);color:var(--tx);border:1px solid var(--bd);padding:4px 12px;border-radius:99px;font-size:13px;opacity:0;transition:opacity .2s;z-index:61;pointer-events:none}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--bd)}th{color:var(--mu);font-weight:600}
+.b{padding:2px 10px;border-radius:99px;font-size:13px;border:1px solid currentColor}
+.b.present{color:var(--ok)}.b.late{color:var(--wa)}.b.absent{color:var(--no)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.stats div{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:12px;color:var(--mu)}
+.stats b{display:block;font-size:30px;color:var(--tx)}
+[hidden]{display:none!important}.tm{width:110px;margin-left:6px}details{border-bottom:1px solid var(--bd);padding:6px 0}summary{cursor:pointer}
+.seg{display:flex}.seg input{display:none}.seg span{display:block;padding:6px 10px;border:1px solid var(--bd);cursor:pointer;margin-left:-1px}
+.seg input:checked+span.present{background:var(--ok);color:#fff}.seg input:checked+span.late{background:var(--wa);color:#fff}.seg input:checked+span.absent{background:var(--no);color:#fff}
+.login{max-width:340px;margin:12vh auto;display:grid;gap:10px}.login h2{margin:0}
+dialog{background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:8px;width:92%;max-width:440px;padding:16px}dialog::backdrop{background:#0008}dialog form{display:grid;gap:10px}dialog label{display:flex;gap:8px;align-items:center}dialog label input{flex:none}
+.b.off{color:var(--no)}
+#reader{max-width:320px;margin:0 auto 10px}
+#toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:6px;display:none;max-width:90%}
+#toast.bad{background:var(--no);color:#fff}
+@media print{header,nav,form,.mu+button,#toast{display:none}}
+</style></head><body>
+<div id="bar"></div><div id="blbl"></div><div id="app"></div><div id="toast"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+const $=s=>document.querySelector(s),app=$('#app'),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fd=e=>{e.preventDefault();return Object.fromEntries(new FormData(e.target))};
+const hhmm=t=>new Date(t).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}),day=()=>new Date().toLocaleDateString('en-CA');
+const opts=c=>c.map(x=>`<option value="${x.id}">${esc(x.name)}</option>`).join('');
+const bar=$('#bar'),blbl=$('#blbl');let pend=0,tok=0,w=0,tm;
+const crawl=()=>{w+=(90-w)*.08;bar.style.width=w+'%'};
+function barStart(){++tok;clearInterval(tm);w=8;blbl.style.opacity=0;bar.style.transition='none';bar.style.opacity=1;bar.style.width='0%';bar.offsetWidth;bar.style.transition='width .25s ease,opacity .3s';bar.style.width=w+'%';tm=setInterval(crawl,200)}
+function barSet(f,label){clearInterval(tm);w=Math.max(w,8+f*80);bar.style.width=w+'%';if(f<1)blbl.textContent=label+' '+Math.round(f*100)+'%';else{blbl.textContent='Processing…';tm=setInterval(crawl,200)}blbl.style.opacity=1}
+function barDone(){clearInterval(tm);const t=++tok;blbl.style.opacity=0;bar.style.width='100%';setTimeout(()=>{if(t!=tok)return;bar.style.opacity=0;setTimeout(()=>{if(t!=tok)return;bar.style.transition='none';bar.style.width='0%'},300)},250)}
+async function busy(f){if(!pend++)barStart();try{return await f()}finally{if(!--pend)barDone()}}
+function xhrJson(url,m,body){return new Promise((res,rej)=>{const x=new XMLHttpRequest();x.open(m,url);x.setRequestHeader('Content-Type','application/json');x.upload.onprogress=e=>{if(e.lengthComputable)barSet(e.loaded/e.total,'Uploading')};x.onload=()=>{let j={};try{j=JSON.parse(x.responseText)}catch{}x.status<300?res(j):rej(new Error(j.error||'Something went wrong'))};x.onerror=()=>rej(new Error('Network error. Check your connection.'));x.send(body)})}
+async function api(p,m='GET',b){return busy(async()=>{const body=b?JSON.stringify(b):undefined;if(body&&body.length>100000)return xhrJson('/api/'+p,m,body);const r=await fetch('/api/'+p,{method:m,headers:{'Content-Type':'application/json'},body});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Something went wrong');return j})}
+const rd=async f=>{const b=await f.arrayBuffer();await new Promise(r=>setTimeout(r,60));return b};
+async function download(u){try{await busy(async()=>{blbl.textContent='Preparing download…';blbl.style.opacity=1;const r=await fetch(u);if(!r.ok){const j=await r.json().catch(()=>({}));throw new Error(j.error||'Download failed')}const blob=await r.blob(),n=/filename="?([^";]+)/i.exec(r.headers.get('Content-Disposition')||''),l=document.createElement('a');l.href=URL.createObjectURL(blob);l.download=n?n[1]:u.split('?')[0].split('/').pop();l.click();setTimeout(()=>URL.revokeObjectURL(l.href),1e4)})}catch(x){toast(x.message,1)}}
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="/api/"]');if(!a)return;e.preventDefault();download(a.getAttribute('href'))});
+function toast(m,bad){const t=$('#toast');t.textContent=m;t.className=bad?'bad':'';t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display='none',3500)}
+const act=async(f,msg)=>{try{await f();if(msg)toast(msg);shell()}catch(x){toast(x.message,1)}};
+let me,tab,sc;
+const tabs={admin:{today:'Today',qr:'QR code',teachers:'Teachers',modules:'Modules',programs:'Programs',staff:'Teacher report',tpres:'Teacher presence',people:'Classes & students',report:'Reports'},teacher:{checkin:'Check-in',sheet:'Attendance',history:'History'}};
+const stopScan=()=>{sc?.stop().catch(()=>{});sc=null};
+const go=k=>{stopScan();tab=k;shell()};
+async function boot(){try{me=await api('me')}catch{me=null}render()}
+function render(){!me?loginView():me.must_change?pwView():shell()}
+function loginView(){app.innerHTML=`<form class="card login" onsubmit="login(event)"><h2>Presence</h2><input name="email" placeholder="Email or matricule" required autofocus autocapitalize="none"><input name="password" type="password" placeholder="Password" required><button>Sign in</button></form>`}
+async function login(e){try{me=await api('login','POST',fd(e));render()}catch(x){toast(x.message,1)}}
+function pwView(){app.innerHTML=`<form class="card login" onsubmit="newPw(event)"><h2>Choose a new password</h2><p class="mu">Your account was set up with a temporary password. Pick your own to continue.</p><input name="password" type="password" minlength="8" placeholder="New password (8+ characters)" required><button>Save password</button></form>`}
+async function newPw(e){try{await api('password','POST',fd(e));me.must_change=0;render()}catch(x){toast(x.message,1)}}
+const logout=()=>api('logout','POST').then(()=>{stopScan();me=null;render()});
+function shell(){const T=tabs[me.role];tab=T[tab]?tab:Object.keys(T)[0];
+app.innerHTML=`<header><b>Presence</b><span>${esc(me.name)}</span><button class="g" style="color:#fff;border-color:#ffffff66" onclick="logout()">Log out</button></header><nav>${Object.entries(T).map(([k,v])=>`<button class="${k==tab?'on':''}" onclick="go('${k}')">${v}</button>`).join('')}</nav><main id="main"></main>`;
+busy(()=>views[tab]()).catch(e=>toast(e.message,1))}
+const views={};
+views.today=async()=>{const r=await api('admin/today'),c=s=>r.teachers.filter(t=>t.status==s).length;
+$('#main').innerHTML=`<div class="stats"><div><b>${c('present')}</b>On time</div><div><b>${c('late')}</b>Late</div><div><b>${c('absent')}</b>Not checked in</div></div><div class="card"><h3>Teachers on ${r.date}</h3><table><tr><th>Teacher<th>Status<th>Checked in</tr>${r.teachers.map(t=>`<tr><td>${esc(t.name)}<td><span class="b ${t.status}">${t.status}</span><td>${t.checked_at?hhmm(t.checked_at):'—'}`).join('')||'<tr><td colspan=3>No teachers yet. Add one in the Teachers tab.'}</table></div>`};
+views.qr=async()=>{const r=await api('admin/qr');
+$('#main').innerHTML=`<div class="card c"><h3>QR code for ${r.date}</h3><img src="${r.img}" width="340" alt="Check-in QR code"><p class="mu">Valid today only. Display it where teachers arrive.</p><button onclick="print()">Print</button></div>
+<form class="card row" onsubmit="act(()=>api('admin/qr/rotate','POST',fd(event)),'Secret changed. The old QR code no longer works.')"><h3>Change the secret</h3><p class="mu" style="width:100%">The QR code is signed with a secret. Enter a passphrase to derive it (the same passphrase always gives the same daily QR), or leave it empty for a random secret. Changing it invalidates today's QR.</p><input name="passphrase" type="password" placeholder="Passphrase (optional)"><button>Change secret</button></form>
+<form class="card row" onsubmit="act(()=>api('admin/late','POST',{t:fd(event).t}),'Saved')"><h3>Late after</h3><input name="t" type="time" value="${r.late}"><button>Save time</button></form>`};
+
+function xl2teachers(buf){const wb=XLSX.read(buf,{type:'array'}),T=[];let cur=null;
+for(const n of wb.SheetNames)for(const row of XLSX.utils.sheet_to_json(wb.Sheets[n],{header:1,raw:true,defval:''})){const v=row.map(c=>String(c).trim());
+if(/^\d+$/.test(v[0])&&v[4]){cur={matricule:v[4],name:v[5],name_ar:v[6],modules:[]};T.push(cur);continue}
+if(cur&&v[0]===''&&/^\d+$/.test(v[1])&&v[2]&&v[3]&&/^\d+$/.test(v[4]))cur.modules.push({name:v[2],class:v[3],semester:+v[4]})}
+if(!T.length)throw new Error('No teachers found: use the "Liste des enseignants" file');return T}
+const dlCsv=(name,rows)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n')],{type:'text/csv'}));a.download=name;a.click()};
+async function impTeachers(e){e.preventDefault();const f=$('#tf').files[0];if(!f)return toast('Choose the Excel file',1);
+try{const r=await busy(async()=>api('teachers/import','POST',{teachers:xl2teachers(await rd(f))}));
+if(r.added)dlCsv('credentials.csv',[['matricule','name','temporary_password'],...r.credentials.map(c=>[c.matricule,c.name,c.password])]);
+alert(`${r.added} new teacher account(s), ${r.existing} already in the app, ${r.modules} module(s) added.`+(r.added?'\n\nThe temporary passwords were downloaded as credentials.csv. Hand them out, then delete the file.':''));shell()}catch(x){toast(x.message,1)}}
+let TL=[];
+views.teachers=async()=>{const t=TL=await api('teachers');
+$('#main').innerHTML=`<form class="card row" onsubmit="impTeachers(event)"><h3>Import teachers and their modules</h3><input type="file" id="tf" accept=".xls,.xlsx"><button>Import</button><p class="mu" style="flex-basis:100%">Choose the Excel file "Liste des enseignants". New teachers get an account (login = matricule) with a temporary password, downloaded as a file after the import. Teachers and modules already in the app are not changed or duplicated. <a href="/examples/exemple_import_enseignants.xlsx" download>Download an example file</a></p></form>
+<form class="card row" onsubmit="act(()=>api('teachers','POST',fd(event)),'Teacher account created')"><h3>New teacher account</h3><input name="name" placeholder="Full name" required><input name="email" type="email" placeholder="Email" required><input name="password" minlength="8" placeholder="Temporary password" required><button>Create account</button></form>
+<div class="card"><input id="q" placeholder="Search teachers" oninput="filt()" style="width:100%;margin-bottom:8px"><table id="tt"><tr><th>Name<th>Login<th>Modules<th>Active<th></tr>${t.map(x=>`<tr data-s="${esc((x.name+' '+(x.matricule||'')+' '+(x.email||'')).toLowerCase())}"><td>${esc(x.name)}<td>${esc(x.matricule||x.email)}<td>${x.modules?`<button class="g" onclick="showMods(${x.id})">${x.modules}</button>`:'0'}<td>${x.active?'Yes':'No'}<td><button class="g" onclick="act(()=>api('teachers/${x.id}','PATCH',{active:${x.active?0:1}}))">${x.active?'Disable':'Enable'}</button> <button class="g" onclick="resetPw(${x.id})">Reset password</button> <button class="g" onclick="editT(${x.id})">Edit</button>`).join('')||'<tr><td colspan=5>No teacher accounts yet.'}</table></div>`};
+const filt=()=>{const q=$('#q').value.toLowerCase();document.querySelectorAll('#tt tr[data-s]').forEach(r=>r.hidden=!r.dataset.s.includes(q))};
+async function showMods(id){try{const r=await api('teachers/'+id+'/modules');alert(r.map(m=>m.name+' — '+m.class+' (S'+m.semester+')').join('\n'))}catch(e){toast(e.message,1)}}
+const resetPw=id=>{const p=prompt('Temporary password (8+ characters)');if(p)act(()=>api('teachers/'+id,'PATCH',{password:p}),'Password reset')};
+
+const editT=async id=>{const x=TL.find(t=>t.id==id),f=x.matricule?'matricule':'email';
+const n=prompt('Teacher name',x.name);if(n===null)return;const l=prompt('Login ('+f+')',x[f]||'');if(l===null)return;
+act(()=>api('teachers/'+id,'PATCH',{name:n,[f]:l}),'Teacher updated')};
+let MD={m:[],t:[],c:[]};
+let PG={year:null,classes:[]},PT=[];
+views.modules=async()=>{const [m,t,c,pg]=await Promise.all([api('modules'),api('teachers'),api('classes'),api('programs')]);MD={m,t,c};PG=pg;
+$('#main').innerHTML=`<div class="card row"><h3>Modules and their teachers</h3><input id="mq" placeholder="Search module, class or teacher" oninput="mfilt()" style="flex:1;min-width:200px"><label class="row"><input type="checkbox" id="mo" onchange="mfilt()"> Only modules of disabled teachers</label></div>
+<form class="card row" onsubmit="addMod(event)"><h3>Assign a module</h3><select name="class_id" id="ac" required onchange="fillCat()"><option value="">Class</option>${opts(c.filter(k=>k.modules>0))}</select><select name="catalog_id" id="am" required onchange="catSel()"><option value="">Module</option></select><input name="name" id="an" placeholder="Module name" style="display:none"><input name="semester" id="asm" type="number" min="1" max="12" value="1" style="display:none;width:70px"><select name="teacher_id" required><option value="">Teacher</option>${opts(t.filter(x=>x.active))}</select><button>Assign</button></form>
+<div class="card"><table id="mt"><tr><th>Code<th>Module<th>Class<th>S<th>Students<th>Teacher<th></tr>${m.map(x=>`<tr data-s="${esc((x.name+' '+x.class+' '+x.code+' '+(x.teacher||'')+' '+(x.matricule||'')).toLowerCase())}" data-off="${x.active?0:1}"><td>${esc(x.code)}<td>${esc(x.name)}<td>${esc(x.class)}<td>${x.semester}<td>${x.students}<td>${esc(x.teacher||'—')} ${x.active?'':'<span class="b off">disabled</span>'}<td><button class="g" onclick="chT(${x.id})">Change teacher</button> <button class="g" onclick="if(confirm('Remove this module? Past attendance records are kept.'))act(()=>api('modules/${x.id}','DELETE'),'Module removed')">Remove</button>`).join('')||'<tr><td colspan=7>No modules yet. Run npm run import or assign one above.'}</table></div>`};
+const fillCat=()=>{const k=PG.classes.find(x=>x.id==$('#ac').value),sel=$('#am');sel.innerHTML='<option value="">Module</option>'+(k?k.modules.filter(m=>m.catalog_id).map(m=>`<option value="${m.catalog_id}">S${m.semester} · ${esc(m.name)}${m.teachers.length?' ('+esc(m.teachers.map(t=>t.name).join(', '))+')':''}</option>`).join(''):'')+(k?'<option value="__new">+ Other module (type the name)</option>':'');catSel()};
+const catSel=()=>{const n=$('#am').value=='__new';$('#an').style.display=n?'':'none';$('#asm').style.display=n?'':'none'};
+const addMod=e=>{const b=fd(e);if(b.catalog_id=='__new'){b.name=(b.name||'').trim();if(!b.name)return toast('Enter a module name',1);delete b.catalog_id}else{delete b.name;delete b.semester}act(()=>api('modules','POST',b),'Module assigned')};
+const mfilt=()=>{const q=$('#mq').value.toLowerCase(),o=$('#mo').checked;document.querySelectorAll('#mt tr[data-s]').forEach(r=>r.hidden=!r.dataset.s.includes(q)||(o&&r.dataset.off!='1'))};
+function chT(id){const x=MD.m.find(m=>m.id==id);let d=$('#dlg');if(!d){d=document.createElement('dialog');d.id='dlg';document.body.appendChild(d)}
+d.innerHTML=`<h3 style="margin:0 0 6px">Change teacher</h3><p class="mu">${esc(x.name)} — ${esc(x.class)} (S${x.semester})<br>Current teacher: <b>${esc(x.teacher||'none')}</b></p>
+<form onsubmit="saveT(event,${id})" onchange="tgl(this)">
+<label><input type="radio" name="mode" value="old" checked> Existing teacher</label>
+<div id="ex" style="display:grid;gap:6px"><input id="tq" placeholder="Search teacher" oninput="fillT(${id})"><select name="teacher_id" id="ts" size="5"></select></div>
+<label><input type="radio" name="mode" value="new"> New teacher (replacement account)</label>
+<div id="nt" hidden style="display:none;gap:6px"><input name="nname" placeholder="Full name"><input name="nmat" placeholder="Matricule (login)"><input name="nemail" type="email" placeholder="Email (optional)"></div>
+${x.teacher_id&&x.teacher_modules>1?`<label><input type="checkbox" name="all"> Move all ${x.teacher_modules} modules of ${esc(x.teacher)}</label>`:''}
+${x.teacher_id&&x.active?`<label><input type="checkbox" name="dis"> Disable ${esc(x.teacher)}'s account if left with no modules</label>`:''}
+<div class="row"><button>Save</button><button type="button" class="g" onclick="$('#dlg').close()">Cancel</button></div></form>`;
+d.showModal();fillT(id)}
+function fillT(id){const x=MD.m.find(m=>m.id==id),q=($('#tq').value||'').toLowerCase();
+$('#ts').innerHTML=MD.t.filter(t=>t.active&&t.id!=x.teacher_id&&(t.name+' '+(t.matricule||'')+' '+(t.email||'')).toLowerCase().includes(q)).slice(0,100).map(t=>`<option value="${t.id}">${esc(t.name)} (${esc(t.matricule||t.email)})</option>`).join('')}
+function tgl(f){const n=f.mode.value=='new';$('#ex').style.display=n?'none':'grid';$('#nt').style.display=n?'grid':'none'}
+async function saveT(e,id){e.preventDefault();const f=e.target,n=f.mode.value=='new',b={all:!!f.all?.checked,disable_old:!!f.dis?.checked};
+if(n)b.new_teacher={name:f.nname.value,matricule:f.nmat.value,email:f.nemail.value};else{if(!f.teacher_id.value)return toast('Choose a teacher',1);b.teacher_id=+f.teacher_id.value}
+try{const r=await api('modules/'+id,'PATCH',b);
+if(r.temp_password){$('#dlg').innerHTML=`<h3 style="margin:0 0 6px">Account created</h3><p>Login: <b>${esc(r.login)}</b><br>Temporary password: <b>${esc(r.temp_password)}</b></p><p class="mu">Copy it now: it is shown only once. The teacher must change it at first login.</p><button onclick="$('#dlg').close();shell()">Done</button>`;return}
+$('#dlg').close();toast(r.moved+' module(s) reassigned'+(r.skipped?', '+r.skipped+' skipped (already assigned to that teacher)':''));shell()}catch(x){toast(x.message,1)}}
+
+const SL={teaching:'Still teaching',quit:'Quit (disabled)',none:'No modules'};
+views.staff=async()=>{const all=await api('admin/teachers-report'),c=k=>all.filter(t=>t.status==k).length;
+$('#main').innerHTML=`<div class="stats"><div><b>${c('teaching')}</b>Still teaching</div><div><b>${c('quit')}</b>Quit (disabled)</div><div><b>${c('none')}</b>Active, no modules</div></div>
+<div class="card row"><h3>Teacher report</h3><select id="sf" onchange="staffF()"><option value="">All teachers (${all.length})</option><option value="teaching">Still teaching</option><option value="quit">Quit (disabled)</option><option value="none">Active, no modules</option></select><input id="sq" placeholder="Search name or login" oninput="staffF()" style="flex:1;min-width:160px"><a id="scsv" class="btn g" href="/api/admin/teachers-report?csv=1">Download CSV</a></div>
+<div class="card"><table id="st"><tr><th>Teacher<th>Login<th>Status<th>Modules<th>Last check-in<th>Last attendance</tr>${all.map(t=>`<tr data-st="${t.status}" data-s="${esc((t.name+' '+(t.matricule||t.email||'')).toLowerCase())}"><td>${esc(t.name)}<td>${esc(t.matricule||t.email)}<td><span class="b ${t.status=='teaching'?'present':t.status=='quit'?'absent':'late'}">${SL[t.status]}</span><td title="${esc(t.module_list)}">${t.modules}<td>${t.last_checkin||'—'}<td>${t.last_attendance||'—'}`).join('')||'<tr><td colspan=6>No teachers yet.'}</table></div>`};
+function staffF(){const f=$('#sf').value,q=$('#sq').value.toLowerCase();$('#scsv').href='/api/admin/teachers-report?csv=1'+(f?'&status='+f:'');
+document.querySelectorAll('#st tr[data-st]').forEach(r=>r.hidden=(f&&r.dataset.st!=f)||!r.dataset.s.includes(q))}
+
+let TY=[],TPD=null;
+const DN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],fd2=d=>d.slice(8)+'/'+d.slice(5,7);
+views.tpres=async()=>{TY=await api('years');const cur=TY.find(y=>y.current)||TY[0],t=new Date().toLocaleDateString('en-CA');
+$('#main').innerHTML=`<div class="card row"><h3>Teacher presence</h3><select id="ty" onchange="tpYear()">${TY.map(y=>`<option value="${y.label}" ${y==cur?'selected':''}>Année Académique: ${y.label}</option>`).join('')}</select><select id="tsm" onchange="tpLoad()"><option value="1">Semester 1</option><option value="2">Semester 2</option></select><a id="tx" class="btn" href="#">Download Excel</a></div>
+<details class="card" id="tdt"><summary><b>Semester dates</b> <span class="mu">(change them if your calendar differs)</span></summary><form class="row" onsubmit="tpDates(event)" style="margin-top:8px"><span>Semester 1</span><input type="date" name="a" required><input type="date" name="b" required><span>Semester 2</span><input type="date" name="c" required><input type="date" name="d" required><button>Save dates</button></form></details><div id="tp"></div>`;
+$('#tsm').value=t>(cur.s1.to)&&t<=cur.s2.to?'2':'1';tpYear(true)};
+function tpYear(first){const y=TY.find(x=>x.label==$('#ty').value),f=$('#tdt form');f.a.value=y.s1.from;f.b.value=y.s1.to;f.c.value=y.s2.from;f.d.value=y.s2.to;tpLoad()}
+async function tpDates(e){const b=fd(e);try{await api('years/dates','POST',{year:$('#ty').value,s1:{from:b.a,to:b.b},s2:{from:b.c,to:b.d}});TY=await api('years');toast('Dates saved');tpLoad()}catch(x){toast(x.message,1)}}
+async function tpLoad(){const y=$('#ty').value,s=$('#tsm').value;try{const D=TPD=await api(`admin/teacher-presence?year=${encodeURIComponent(y)}&semester=${s}`);
+$('#tx').href=`/api/admin/teacher-presence.xlsx?year=${encodeURIComponent(y)}&semester=${s}`;
+const t=new Date().toLocaleDateString('en-CA'),wi=Math.max(0,D.weeks.findIndex(w=>t>=w.start&&t<=w.end)),pick=wi>0||(D.weeks[0]&&t>=D.weeks[0].start&&t<=D.weeks[0].end)?wi:(t>D.to?D.weeks.length-1:0);
+$('#tp').innerHTML=`<div class="card"><div class="row"><select id="tw" onchange="tpWeek()">${D.weeks.map((w,i)=>`<option value="${i}" ${i==pick?'selected':''}>Week ${w.n} · ${fd2(w.start)} → ${fd2(w.end)}</option>`).join('')}</select><span class="mu">${D.teachers.length} teacher(s) · ${D.from} → ${D.to}</span><input id="tq" placeholder="Search teacher" oninput="tpWeek()" style="flex:1;min-width:150px"></div><p class="mu"><span class="b present">P</span> on time · <span class="b late">L</span> late · blank = no check-in recorded</p><div style="overflow-x:auto"><table id="tpt"></table></div></div>`;tpWeek()}catch(x){toast(x.message,1)}}
+function tpWeek(){const D=TPD,w=D.weeks[$('#tw').value],q=$('#tq').value.toLowerCase();if(!w){$('#tpt').innerHTML='<tr><td>No weeks in this semester.';return}
+$('#tpt').innerHTML=`<tr><th>Teacher<th>Modules${w.days.map((d,i)=>`<th style="text-align:center${i>4?';opacity:.6':''}">${DN[i]}<br><span class="mu">${fd2(d)}</span>`).join('')}<th>Week<th>Semester</tr>`+D.teachers.filter(t=>(t.name+' '+t.matricule).toLowerCase().includes(q)).map(t=>{let n=0;const cells=w.days.map(d=>{const m=t.marks[d],o=d<D.from||d>D.to;if(m)n++;return`<td style="text-align:center">${m?`<span class="b ${m.s}" title="${m.t}">${m.s=='late'?'L':'P'}</span>`:o?'<span class="mu">·</span>':''}`}).join('');
+return`<tr><td>${esc(t.name)}${t.active?'':' <span class="b absent">disabled</span>'}<br><span class="mu">${esc(t.matricule)}</span><td title="${esc(t.modules.map(m=>m.name+' — '+m.class).join('\n'))}">${t.modules.length}${cells}<td style="text-align:center"><b>${n}</b><td style="text-align:center">${t.present+t.late}`}).join('')||'<tr><td colspan=11>No teacher has modules or check-ins in this semester.'}
+
+const stNz=t=>String(t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+function xl2mods(buf){const wb=XLSX.read(buf,{type:'array'});
+for(const n of wb.SheetNames){const a=XLSX.utils.sheet_to_json(wb.Sheets[n],{header:1,raw:true,defval:''});const hi=a.findIndex(r=>{const t=r.map(stNz);return t.includes('code')&&t.includes('semestre')});if(hi<0)continue;
+const t=a[hi].map(stNz),f=p=>t.findIndex(p),I={code:f(x=>x=='code'),name:f(x=>x=='nom'),ar:f(x=>x=='nom ar'),cls:f(x=>x.startsWith('filiere')),sem:f(x=>x=='semestre'),nat:f(x=>x.startsWith('nature')),cyc:f(x=>x=='cycle'),yr:f(x=>x.startsWith('annee univ'))},g=(r,i)=>i<0?'':String(r[i]).trim();
+return a.slice(hi+1).filter(r=>g(r,I.cls)).map(r=>({code:g(r,I.code),name:g(r,I.name),name_ar:g(r,I.ar),class:g(r,I.cls),semester:+g(r,I.sem),nature:g(r,I.nat),cycle:g(r,I.cyc),year:g(r,I.yr)}))}
+throw new Error('No module list found in this file')}
+async function impMods(e){e.preventDefault();const f=$('#mf').files[0];if(!f)return toast('Choose the Excel file',1);
+try{const r=await busy(async()=>api('catalog/import','POST',{rows:xl2mods(await rd(f))}));
+alert(`${r.added} module(s) added, ${r.updated} updated, ${r.skipped} skipped.\n${r.new_classes.length} new class(es), ${r.linked} teacher module(s) linked to the list, ${r.groups.linked} student group(s) moved to the right class.`);shell()}catch(x){toast(x.message,1)}}
+views.programs=async()=>{PG=await api('programs');const tot=PG.classes.reduce((a,k)=>a+k.modules.length,0),un=PG.classes.reduce((a,k)=>a+k.modules.filter(m=>!m.teachers.length).length,0);
+$('#main').innerHTML=`<div class="stats"><div><b>${PG.classes.length}</b>Classes</div><div><b>${tot}</b>Modules ${PG.year||''}</div><div><b>${un}</b>Without teacher</div></div>
+<div class="card row"><h3>Programs</h3><input id="pq" placeholder="Search class, module or code" oninput="pfilt()" style="flex:1;min-width:180px"><label class="row"><input type="checkbox" id="pu" onchange="pfilt()"> Only modules without teacher</label><a class="btn g" href="/api/programs.xlsx">Download Excel</a></div>
+<form class="card row" onsubmit="impMods(event)"><h3>Import the list of modules</h3><input type="file" accept=".xls,.xlsx" id="mf"><button>Import modules</button><p class="mu" style="flex-basis:100%">Choose the Excel file "Liste des modules". Each module is saved in its class (filière &amp; année) and linked to the teachers' modules. The students of a class follow all the modules of that class. <a href="/examples/exemple_import_modules.xlsx" download>Download an example file</a></p></form>
+${PG.classes.map(k=>{const u=k.modules.filter(m=>!m.teachers.length).length;return`<details class="card pc" data-cs="${esc(k.name.toLowerCase())}"><summary><b>${esc(k.name)}</b> <span class="mu">· ${k.students} student(s) · ${k.modules.length} module(s)</span>${u?` <span class="b late">${u} without teacher</span>`:''}</summary>
+<p class="mu">${k.groups.map(g=>esc(g.niveau)+' · '+esc(g.filiere)+(g.specialite?' · '+esc(g.specialite):'')+' ('+g.students+' students)').join('<br>')||'No student group linked to this class yet.'}</p>
+<details ontoggle="pStu(this,${k.id})"><summary>Students (${k.students})</summary><div></div></details>
+<table><tr><th>S<th>Code<th>Module<th>Nature<th>Teacher</tr>${k.modules.map(m=>`<tr data-un="${m.teachers.length?0:1}" data-s="${esc((m.name+' '+m.name_ar+' '+m.code+' '+m.teachers.map(t=>t.name).join(' ')).toLowerCase())}"><td>S${m.semester}<td>${esc(m.code)}<td>${esc(m.name)}${m.name_ar&&m.name_ar!=m.name?'<br><span class="mu">'+esc(m.name_ar)+'</span>':''}<td>${esc(m.nature)}<td>${m.teachers.map(t=>esc(t.name)+(t.active?'':' <span class="b off">disabled</span>')).join(', ')||(m.catalog_id?`<button class="g" onclick="asgT(${m.catalog_id})">Assign teacher</button>`:'—')}`).join('')}</table></details>`}).join('')||'<div class="card mu">No program yet. Import the list of modules above.</div>'}`};
+function pfilt(){const q=$('#pq').value.toLowerCase(),u=$('#pu').checked;document.querySelectorAll('details.pc').forEach(d=>{let n=0;d.querySelectorAll('tr[data-s]').forEach(r=>{const ok=(!q||r.dataset.s.includes(q)||d.dataset.cs.includes(q))&&(!u||r.dataset.un=='1');r.hidden=!ok;if(ok)n++});d.hidden=!n;if(q||u)d.open=n>0})}
+async function pStu(d,id){if(!d.open||d.dataset.ok)return;d.dataset.ok=1;const s=await api('classes/'+id+'/students');d.querySelector('div').innerHTML=`<table>${s.map(x=>`<tr><td>${esc(x.matricule||'')}<td>${esc(x.name)}<td>${esc(x.specialite||'')}<td>${x.sit?`<span class="b ${/valid/i.test(x.sit)?'present':'late'}">${esc(x.sit)}</span>`:''}`).join('')||'<tr><td>No students in this class yet.'}</table>`}
+async function asgT(cid){if(!PT.length)PT=(await api('teachers')).filter(t=>t.active);let m=null,k=null;PG.classes.forEach(c=>c.modules.forEach(x=>{if(x.catalog_id==cid){m=x;k=c}}));
+let d=$('#dlg');if(!d){d=document.createElement('dialog');d.id='dlg';document.body.appendChild(d)}
+d.innerHTML=`<h3 style="margin:0 0 6px">Assign a teacher</h3><p class="mu">S${m.semester} · ${esc(m.name)}<br>${esc(k.name)}</p><form onsubmit="saveAsg(event,${cid})"><input id="aq" placeholder="Search teacher" oninput="fillA()"><select name="teacher_id" id="as" size="6"></select><div class="row"><button>Assign</button><button type="button" class="g" onclick="$('#dlg').close()">Cancel</button></div></form>`;d.showModal();fillA()}
+function fillA(){const q=($('#aq').value||'').toLowerCase();$('#as').innerHTML=PT.filter(t=>(t.name+' '+(t.matricule||'')+' '+(t.email||'')).toLowerCase().includes(q)).slice(0,100).map(t=>`<option value="${t.id}">${esc(t.name)} (${esc(t.matricule||t.email)})</option>`).join('')}
+async function saveAsg(e,cid){e.preventDefault();const t=e.target.teacher_id.value;if(!t)return toast('Choose a teacher',1);try{await api('modules','POST',{teacher_id:+t,catalog_id:cid});$('#dlg').close();toast('Teacher assigned');shell()}catch(x){toast(x.message,1)}}
+views.people=async()=>{const [c,s,G]=await Promise.all([api('classes'),api('students'),api('student-groups')]);
+$('#main').innerHTML=`<form class="card row" onsubmit="act(()=>api('classes','POST',fd(event)),'Class added')"><h3>New class</h3><input name="name" placeholder="Class name" required><button>Add class</button></form>
+<form class="card row" onsubmit="act(()=>api('students','POST',fd(event)),'Student added')"><h3>New student</h3><input name="name" placeholder="Student name" required><select name="class_id" required><option value="">Class</option>${opts(c)}</select><button>Add student</button></form>
+<form class="card" onsubmit="imp(event)"><h3>Import students</h3><p class="mu">Paste the rows copied from Excel with the header line <code>Mat. Etudiant, Nom, Prénom, Libellé domaine, Libellé filière, specialité, Code niveau, Sit. d'ins</code>, or choose your Excel file (.xlsx). Students are matched by matricule, so importing again updates them instead of duplicating. Each teacher sees only the students of the class (year and speciality) of their module. <a href="/examples/exemple_import_etudiants.xlsx" download>Download an example file</a></p><input type="file" accept=".xlsx,.xls,.csv,.tsv,.txt" onchange="loadF(this)"><textarea name="csv" id="ic" rows="5" placeholder="Mat. Etudiant&#9;Nom&#9;Prénom&#9;Libellé domaine&#9;Libellé filière&#9;specialité&#9;Code niveau&#9;Sit. d'ins"></textarea><button>Import</button></form>
+<div class="card"><h3>Student groups</h3><p class="mu">Every level, filière and spécialité found in the import is linked to a class. Check the groups marked "no teacher module" and link them to the class your teachers' modules use.</p><p><button class="g" onclick="rematch()">Re-match groups (keeps the ones you linked by hand)</button></p><table><tr><th>Level<th>Filière<th>Spécialité<th>Students<th>Linked class</tr>${G.map(x=>`<tr><td>${esc(x.niveau)}<td>${esc(x.filiere)}<td>${esc(x.specialite)}<td>${x.students}<td><select data-k="${esc(x.gkey)}" onchange="grpSet(this)">${c.map(k=>`<option value="${k.id}" ${k.id==x.class_id?'selected':''}>${esc(k.name)} · ${k.modules} module(s)</option>`).join('')}</select> ${x.modules?'':'<span class="b late">no teacher module</span>'}`).join('')||'<tr><td colspan=5>No imported groups yet.'}</table></div>
+<div class="card row"><select id="ssf" onchange="stuF()"><option value="">All registrations</option><option value="validee">Validée</option><option value="generee">Générée</option></select><input id="ssq" placeholder="Search matricule, name or class" oninput="stuF()" style="flex:1;min-width:160px"></div><div class="card"><table id="stu"><tr><th>Matricule<th>Student<th>Class<th>Sit. d'ins<th></tr>${s.map(x=>`<tr data-sit="${esc((x.sit||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase())}" data-s="${esc(((x.matricule||'')+' '+x.name+' '+x.class).toLowerCase())}"><td>${esc(x.matricule||'')}<td>${esc(x.name)}<td>${esc(x.class)}<td>${x.sit?`<span class="b ${/valid/i.test(x.sit)?'present':'late'}">${esc(x.sit)}</span>`:''}<td><button class="g" onclick="if(confirm('Delete this student and their records?'))act(()=>api('students/${x.id}','DELETE'))">Delete</button>`).join('')||'<tr><td colspan=5>No students yet.'}</table></div>`};
+
+const xl2tsv=buf=>{const wb=XLSX.read(buf,{type:'array'}),nz=t=>String(t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const want=[['Mat. Etudiant',h=>/^mat(ricule)?( etud\w*)?$/.test(h)||(h.startsWith('mat')&&h.includes('etud'))],['Nom',h=>h=='nom'],['Prénom',h=>h=='prenom'],['Libellé domaine',h=>h=='libelle domaine'],['Libellé filière',h=>h=='libelle filiere'],['specialité',h=>h.includes('specialite')],['Code niveau',h=>h=='code niveau'||h=='niveau'],["Sit. d'ins",h=>h.startsWith('sit d ins')]];
+for(const n of wb.SheetNames){const rows=XLSX.utils.sheet_to_json(wb.Sheets[n],{header:1,raw:true,defval:''});
+const hi=rows.findIndex(r=>{const t=r.map(nz);return t.some(want[0][1])&&t.includes('nom')});
+if(hi<0)continue;const t=rows[hi].map(nz),idx=want.map(w=>t.findIndex(w[1]));
+return [want.map(w=>w[0]).join('\t'),...rows.slice(hi+1).filter(r=>r.some(c=>String(c).trim())).map(r=>idx.map(i=>i<0?'':String(r[i]).replace(/[\t\r\n]+/g,' ').trim()).join('\t'))].join('\n')}
+throw new Error('No sheet with the columns Mat. Etudiant and Nom was found')};
+const loadF=async i=>{const f=i.files[0];if(!f)return;try{await busy(async()=>{document.getElementById('ic').value=/\.xlsx?$/i.test(f.name)?xl2tsv(await rd(f)):await f.text()});toast('File loaded: press Import')}catch(x){toast(x.message,1)}};
+async function imp(e){const b=fd(e);try{const r=await api('students/import','POST',b);toast(r.added+' added, '+r.updated+' updated'+(r.skipped?', '+r.skipped+' skipped':''));
+if(r.new_classes&&r.new_classes.length)alert('No existing class matched these groups, so new classes were created. Check them in "Student groups" and link them to the class your teachers use:\n\n'+r.new_classes.join('\n'));shell()}catch(x){toast(x.message,1)}}
+const stuF=()=>{const f=$('#ssf').value,q=$('#ssq').value.toLowerCase();document.querySelectorAll('#stu tr[data-s]').forEach(r=>r.hidden=(f&&r.dataset.sit!=f)||!r.dataset.s.includes(q))};
+async function rematch(){try{const r=await api('student-groups/rematch','POST',{});toast(r.linked+' group(s) linked'+(r.removed?', '+r.removed+' empty class(es) removed':''));shell()}catch(x){toast(x.message,1)}}
+async function grpSet(s){try{const r=await api('student-groups','PATCH',{gkey:s.dataset.k,class_id:+s.value});toast(r.moved+' student(s) moved');shell()}catch(x){toast(x.message,1)}}
+views.report=async()=>{const c=await api('classes'),d=day();
+$('#main').innerHTML=`<form class="card row" onsubmit="rep(event)"><h3>Student attendance</h3><input type="date" name="from" value="${d}"><input type="date" name="to" value="${d}"><select name="class_id"><option value="">All classes</option>${opts(c)}</select><button>Show</button><a id="csv" class="btn g" href="#">Download CSV</a></form><div class="card" id="rep"></div>`;
+$('#main form').dispatchEvent(new Event('submit',{cancelable:true}))};
+async function rep(e){const q=new URLSearchParams(fd(e));try{const r=await api('admin/report?'+q);$('#csv').href='/api/admin/report?csv=1&'+q;
+$('#rep').innerHTML=`<table><tr><th>Date<th>Class<th>Module<th>Student<th>Status<th>Time<th>Taken by</tr>${r.map(x=>`<tr><td>${x.date}<td>${esc(x.class)}<td>${esc(x.module)}<td>${esc(x.student)}<td><span class="b ${x.status}">${x.status}</span><td>${esc(x.time)}<td>${esc(x.teacher)}`).join('')||'<tr><td colspan=7>No records for this period.'}</table>`}catch(x){toast(x.message,1)}}
+views.checkin=async()=>{const r=await api('checkin/today');
+$('#main').innerHTML=`<div class="card c"><h3>Today's check-in</h3>${r.status?`<p><span class="b ${r.status}">${r.status}</span></p><p class="mu">Checked in at ${hhmm(r.checked_at)}</p>`:`<div id="reader"></div><button onclick="scan()">Scan QR code</button><p class="mu">Camera not working? Paste the QR text:</p><form class="row" style="justify-content:center" onsubmit="act(()=>api('checkin','POST',fd(event)),'Checked in')"><input name="payload" required><button class="g">Check in</button></form>`}</div>`};
+async function scan(){try{sc=new Html5Qrcode('reader');await sc.start({facingMode:'environment'},{fps:10,qrbox:240},t=>{if(!sc)return;const s=sc;sc=null;s.stop().catch(()=>{});act(()=>api('checkin','POST',{payload:t}),'Checked in')},()=>{})}catch{toast('Camera unavailable. Phones need HTTPS to use the camera.',1)}}
+let MY=[];
+views.sheet=async()=>{const [m,c]=await Promise.all([api('my-modules'),api('classes')]);MY=m;
+const o=m.length?m.map(x=>`<option value="m${x.id}">${esc(x.name)} — ${esc(x.class)}</option>`).join(''):c.map(x=>`<option value="c${x.id}">${esc(x.name)}</option>`).join('');
+$('#main').innerHTML=`<div class="card row"><h3>Attendance for ${day()}</h3><select id="cl" onchange="load()" style="max-width:100%"><option value="">Select a ${m.length?'module':'class'}</option>${o}</select></div><div id="sheet"></div>`};
+const sel=v=>v[0]=='m'?{module_id:+v.slice(1)}:{class_id:+v.slice(1)};
+async function load(){const v=$('#cl').value;if(!v)return $('#sheet').innerHTML='';try{const r=await api('sheet?'+new URLSearchParams(sel(v)));
+const mo=v[0]=='m'?MY.find(x=>x.id==v.slice(1)):null,nz=t=>String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+$('#sheet').innerHTML=`<div class="card"><div class="row"><div style="flex:1;min-width:180px"><b>${mo?esc(mo.name):'Class'}</b><br><span class="mu">${mo?esc(mo.class)+' · S'+mo.semester+' · ':''}<span id="cnt">${r.length}</span> student(s)</span></div><select id="sf" onchange="stF()"><option value="">All students</option><option value="validee">Validée</option><option value="generee">Générée</option></select><input id="stq" placeholder="Search name or matricule" oninput="stF()" style="flex:1;min-width:150px"></div></div>
+<div class="card"><div class="row"><button class="g" onclick="markAll('present')">Mark all present</button><button class="g" onclick="markAll('absent')">Mark all absent</button><span class="mu">Arrival time (optional)</span><input type="time" id="tall"><button class="g" onclick="timeAll()">Apply to present</button></div>
+<table id="tb" onchange="rowSt(event)">${r.map(s=>`<tr data-id="${s.id}" data-s="${esc(((s.matricule||'')+' '+s.name).toLowerCase())}" data-sit="${esc(nz(s.sit))}"><td><b>${esc(s.name)}</b><br><span class="mu">${esc(s.matricule||'')}${s.niveau?' · '+esc(s.niveau):''}${(s.specialite||s.filiere)?' · '+esc(s.specialite||s.filiere):''}</span>${s.sit?` <span class="b ${/valid/i.test(s.sit)?'present':'late'}">${esc(s.sit)}</span>`:''}<td><div class="seg">${['present','absent'].map(x=>`<label><input type="radio" name="s${s.id}" value="${x}" ${s.status==x?'checked':''}><span class="${x}">${x}</span></label>`).join('')}</div> <input type="time" class="tm" value="${esc(s.arrived_at||'')}" title="Arrival time (optional)" ${s.status=='absent'?'hidden':''}>`).join('')||'<tr><td>No students in this class yet. Ask the admin to import them.'}</table><p><button onclick="save()">Save attendance</button></p></div>`}catch(e){toast(e.message,1)}}
+const vis=()=>document.querySelectorAll('#tb tr[data-id]:not([hidden])');
+const stF=()=>{const q=$('#stq').value.toLowerCase(),f=$('#sf').value;document.querySelectorAll('#tb tr[data-id]').forEach(r=>r.hidden=(f&&r.dataset.sit!=f)||!r.dataset.s.includes(q));$('#cnt').textContent=vis().length};
+const rowSt=e=>{if(e.target.type!='radio')return;const t=e.target.closest('tr').querySelector('.tm');t.hidden=e.target.value=='absent';if(t.hidden)t.value=''};
+const markAll=st=>vis().forEach(r=>{r.querySelector('input[value='+st+']').checked=true;const t=r.querySelector('.tm');t.hidden=st=='absent';if(st=='absent')t.value=''});
+const timeAll=()=>{const v=$('#tall').value;vis().forEach(r=>{if(r.querySelector('input[value=present]').checked)r.querySelector('.tm').value=v})};
+async function save(){try{await api('sheet','POST',{...sel($('#cl').value),records:[...document.querySelectorAll('#tb tr[data-id]')].map(r=>{const st=r.querySelector('input:checked').value;return{student_id:+r.dataset.id,status:st,arrived_at:st=='present'?r.querySelector('.tm').value:''}})});toast('Attendance saved')}catch(e){toast(e.message,1)}}
+views.history=async()=>{const m=MY=await api('my-modules');
+$('#main').innerHTML=`<div class="card row"><h3>Attendance history</h3><select id="hm" onchange="hLoad()" style="max-width:100%"><option value="">Select a module</option>${m.map(x=>`<option value="${x.id}">${esc(x.name)} — ${esc(x.class)}</option>`).join('')}</select><a id="hcsv" class="btn g" href="#" hidden>Download CSV</a></div><div id="hist"></div>`};
+async function hLoad(){const id=$('#hm').value;if(!id){$('#hist').innerHTML='';$('#hcsv').hidden=true;return}
+try{const r=await api('history?module_id='+id);$('#hcsv').href='/api/history?csv=1&module_id='+id;$('#hcsv').hidden=false;
+const days={},st={};r.forEach(x=>{(days[x.date]??=[]).push(x);const s=st[x.student_id]??={name:x.name,mat:x.matricule,p:0,a:0,last:''};if(x.status=='absent'){s.a++;s.last=s.last||x.date}else s.p++});
+const D=Object.keys(days).sort().reverse(),S=Object.values(st).sort((a,b)=>b.a-a.a||a.name.localeCompare(b.name));
+$('#hist').innerHTML=D.length?`<div class="card"><h3>By day (${D.length})</h3>${D.map(d=>{const L=days[d],p=L.filter(x=>x.status=='present').length;return`<details><summary><b>${d}</b> · ${p} present · ${L.length-p} absent</summary><table>${L.map(x=>`<tr><td>${esc(x.name)}<br><span class="mu">${esc(x.matricule||'')}</span><td><span class="b ${x.status}">${x.status}</span><td>${esc(x.arrived_at)}`).join('')}</table></details>`}).join('')}</div>
+<div class="card"><h3>By student</h3><table><tr><th>Student<th>Present<th>Absent<th>Last absence</tr>${S.map(s=>`<tr><td>${esc(s.name)}<br><span class="mu">${esc(s.mat||'')}</span><td>${s.p}<td>${s.a}<td>${s.last||'—'}`).join('')}</table></div>`:'<div class="card mu">No attendance has been saved for this module yet.</div>'}catch(e){toast(e.message,1)}}
+boot();
+</script></body></html>

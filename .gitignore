@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Local database files
+presence.db*
+
+# Sensitive credentials
+credentials.csvgit init
