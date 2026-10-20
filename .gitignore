@@ -5,4 +5,7 @@ node_modules/
 presence.db*
 
 # Sensitive credentials
-credentials.csvgit init
+credentials.csv
+
+# Ignore Readme
+README.md
